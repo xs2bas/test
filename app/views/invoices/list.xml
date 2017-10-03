@@ -1,0 +1,27 @@
+<Alloy>
+	<Collection src="invoice" id="invoicesCollection" instance="true" />
+
+	<View id="main">		
+		<View class="listLegend">
+			<Label class="translated_period">L('invoices_list_period')</Label>
+			<Label class="identifier">L('invoices_list_identifier')</Label>
+			<Label class="amount">L('invoices_list_amount')</Label>
+			<Label class="payed">L('invoices_list_payed')</Label>
+		</View>
+					
+		<TableView id="invoiceList" dataCollection="$.invoicesCollection">
+		    <Widget id="is" src="nl.fokkezb.infiniteScroll" onEnd="tableLoader" />
+			
+			<TableViewSection>					
+				<TableViewRow model="{id}">
+					<Label class="translated_period">{translated_period}</Label>
+					<Label class="identifier">{identifier}</Label>
+					<Label class="amount">{amount}</Label>
+					<Label class="payed">{payed}</Label>
+				</TableViewRow>		
+			</TableViewSection>
+		</TableView>	
+					
+		<Require src="buttonBar"/>
+	</View>
+</Alloy>

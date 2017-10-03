@@ -1,0 +1,150 @@
+<resources>
+    <string name="home_page_title">Home</string>
+		<string name="home_message_title">Welkom bij %s.</string>
+    	<string name="home_message">Met deze app kun je inloggen op je persoonlijke omgeving. Je kunt onder andere je persoonlijke gegevens aanpassen, meldingen doen en je hebt inzage in je facturen en je betaalstatus. Tevens is het mogelijk om contact op te nemen met de bewaker. </string>
+    
+    <string name="login_page_title">Inloggen</string>
+	    <string name="login_username">Gebruikersnaam</string>
+	    <string name="login_password">Wachtwoord</string>
+	    <string name="login_login">Inloggen</string>
+	    <string name="login_busy">Bezig met inloggen...</string>
+	    <string name="login_unable_title">Kan niet inloggen</string>
+	    <string name="login_unable_description">Met de ingevoerde gegevens kan niet ingelogd worden.</string>
+	    
+    
+   
+    <string name="user_profile_page_title">Mijn gegevens</string>
+    
+	    <string name="user_profile_group_login">Inlog gegevens</string>
+		    <string name="user_profile_username">Gebruikersnaam</string>
+		    <string name="user_profile_password">Wachtwoord</string>
+	    
+	    <string name="user_profile_group_general">Algemene gegevens</string>
+		    <string name="user_profile_gender">Geslacht</string>
+		    	<string name="user_profile_gender_male">Man</string>
+		    	<string name="user_profile_gender_female">Vrouw</string>
+		    <string name="user_profile_initials">Initialen</string>
+		    <string name="user_profile_firstname">Voornaam</string>
+		    <string name="user_profile_middlename">Tussennaam</string>
+		    <string name="user_profile_name">Achternaam</string>
+		    <string name="user_profile_bdate">Geboortedatum</string>
+		    <string name="user_profile_identification">Identificatie nr.</string>
+		    <string name="user_profile_phone_home">Telefoon</string>
+		    <string name="user_profile_phone_cell">Mobiel</string>
+		    <string name="user_profile_email">E-mail</string>
+		    <string name="user_profile_email_verify">Herhaal E-mail</string>
+	    
+	    <string name="user_profile_group_object_address">Adres</string>
+		    <string name="user_profile_address_address">Adres</string>
+		    <string name="user_profile_address_number">Nummer</string>
+		    <string name="user_profile_address_zipcode">Postcode</string>
+		    <string name="user_profile_address_city">Stad</string>
+	    
+	    <string name="user_profile_group_period">Periode</string>
+	    	<string name="user_profile_date">Ingangsdatum</string>
+    
+	    <string name="user_profile_group_user_address">Huidig adres</string>
+    	   
+		<string name="user_profile_group_payment">Betalingvoorkeuren</string>
+	    	<string name="user_profile_preferences_bill">Factuur ontvangen</string>
+		    	<string name="user_profile_preferences_bill_post">Post</string>
+		    	<string name="user_profile_preferences_bill_email">E-mail</string>
+	    	<string name="user_profile_preferences_iban">IBAN</string>
+	    	<string name="user_profile_preferences_bic">BIC</string>
+	    	<string name="user_profile_preferences_payment_type">Betaalmethode</string>
+		    	<string name="user_profile_preferences_payment_type_ideal">Handmatige betaling</string>
+		    	<string name="user_profile_preferences_payment_type_collection">Automatische incasso</string>
+ 
+		<string name="user_profile_group_save">Gegevens opslaan</string>
+	    	<string name="user_profile_save_confirm_text">Contractant verklaart hierbij de persoonlijke gegevens correct en naar waarheid te hebben ingevuld.</string>    
+	    	<string name="user_profile_save_button">Opslaan</string>
+	    	<string name="user_profile_logout_button">Uitloggen</string>
+	    	<string name="user_profile_logout_message">Weet u zeker dat u wilt uitloggen?</string>
+
+	    	
+	<string name="invoices_list_page_title">Facturen</string>
+	   	<string name="invoices_list_period">Periode</string>
+		<string name="invoices_list_identifier">Factuur</string>
+		<string name="invoices_list_amount">Bedrag</string>
+		<string name="invoices_list_payed">Betaald</string>
+	
+	
+	<string name="emails_list_page_title">E-mails</string>
+		<string name="emails_list_subject">Onderwerp</string>
+		<string name="emails_list_date">Datum</string>
+		<string name="emails_details_attachments">Bijlage(n)</string>
+		<string name="emails_details_attachment_title">Bijlage</string>
+	
+	<string name="documents_list_page_title">Documenten</string>
+		<string name="documents_list_title">Titel</string>
+		<string name="documents_list_date">Datum</string>	
+	
+	<string name="complaints_list_page_title">Meldingen</string>
+		<string name="complaints_list_status">Status</string>
+		<string name="complaints_list_title">Titel</string>
+		<string name="complaints_list_date">Datum</string>
+
+		<string name="complaints_add_title">Melding indienen</string>
+		<string name="complaints_add_is_complaint">Type</string>
+		<string name="complaints_add_is_complaint_no_complaint">Storing</string>
+		<string name="complaints_add_is_complaint_complaint">Klacht</string>
+		<string name="complaints_add_title">Omschrijving</string>
+		<string name="complaints_add_description">Uitgebreide omschrijving</string>
+		<string name="complaints_add_access_allowed">Toestemming toetreding</string>
+		<string name="complaints_add_submit">Indienen</string>
+		<string name="complaints_add_cancel">Annuleren</string>
+		<string name="complaints_add_image_error">Opslaan van foto mislukt, probeer het later nogmaals.</string>
+		<string name="complaints_add_delete">Verwijderen</string>
+		<string name="complaints_add_delete">Weet u zeker dat u deze foto wilt verwijderen?</string>		
+		<string name="complaints_add_confirm_save_title">Bedankt</string>
+		<string name="complaints_add_confirm_save">Uw melding is opgeslagen</string>
+		<string name="complaints_add_picture_loading"> Bezig met laden foto's...</string>
+		<string name="complaints_add_pictures">Foto's</string>
+
+		<string name="complaints_details_date">Datum</string>
+		<string name="complaints_details_status">Status</string>
+		
+		<string name="complaints_is_complaint_yes">Klacht</string>
+		<string name="complaints_is_complaint_no">Storing</string>
+		
+		
+		<string name="complaints_status_Opgelost">Opgelost</string>
+		<string name="complaints_status_In_behandeling">In behandeling</string>
+		<string name="complaints_status_Open">Open</string>
+		<string name="complaints_status_In_afwachting">In afwachting</string>
+		<string name="complaints_status_Afspraak">Afspraak</string>
+		<string name="complaints_status_Afgehandeld">Afgehandeld</string>
+		<string name="complaints_status_Financieel_gereed">Afgehandeld</string>
+		<string name="complaints_status_Afgewezen">Afgewezen</string>
+		<string name="complaints_status_Administratief_gereed">Afgehandeld</string>
+	
+	<string name="contact_page_title">Contact</string>
+		<string name="contact_page_phone">Telefoon: </string>
+		<string name="contact_page_emergency_phone">Telefoon bij noodgevallen: </string>
+		<string name="contact_page_address">Adres: </string>
+	
+	
+	
+	<string name="confirm_dialog_button_confirm">OK</string>
+	<string name="confirm_dialog_button_cancel">Annuleren</string>
+	
+	<string name="form_validate_required">Het veld %s is verplicht.</string>
+	<string name="form_validate_matches">Het veld %s komt niet overeen met de verwachte invoer: %s.</string>
+	<string name="form_validate_valid_email">Het veld %s moet een valide E-mail adres zijn.</string>
+	<string name="form_validate_valid_emails">Het veld %s moet een valide E-mail adressen bevatten.</string>
+	<string name="form_validate_min_length">Het veld %s moet tenminste %s karakters lang zijn.</string>
+	<string name="form_validate_max_length">Het veld %s mag niet meer dan %s karakters lang zijn.</string>
+	<string name="form_validate_exact_length">Het veld %s moet precies %s karakters lang zijn.</string>
+	<string name="form_validate_greater_than">Het veld %s must contain a number greater than %s.</string>
+	<string name="form_validate_less_than">Het veld %s moet een nummer lager dan %s bevatten.</string>
+	<string name="form_validate_alpha">Het veld %s mag enkel letters tekens bevatten.</string>
+	<string name="form_validate_alpha_numeric">Het veld %s mag enkel letters en cijfers bevatten.</string>
+	<string name="form_validate_alpha_dash">Het veld %s mag enkel letters, cijfers en streepjes bevatten.'</string>
+	<string name="form_validate_numeric">Het veld %s mag enkel cijfers bevatten.</string>
+	<string name="form_validate_integer">Het veld %s mag enkel cijfers bevatten.</string>
+	<string name="form_validate_decimal">Het veld %s mag enkel cijfers bevatten.</string>
+	<string name="form_validate_is_natural">Het veld %s mag enkel cijfers bevatten.</string>
+	<string name="form_validate_is_natural_no_zero">Het veld %s mag enkel cijfers bevatten.</string>
+	<string name="form_validate_valid_ip">Het veld %s mag enkel een geldig IP adres bevatten.</string>
+	<string name="form_validate_valid_url">Het veld %s moet een geldige URL bevatten.'</string>	     	
+</resources>

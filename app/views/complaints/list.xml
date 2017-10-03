@@ -1,0 +1,25 @@
+<Alloy>
+	<Collection src="complaint" id="complaintCollection" instance="true" />
+		 	
+	<View id="main">
+		<View class="listLegend">
+			<Label class="status">L('complaints_list_status')</Label>
+			<Label class="title">L('complaints_list_title')</Label>
+			<Label class="date">L('complaints_list_date')</Label>
+		</View>
+		
+		<TableView id="complaintList" dataCollection="$.complaintCollection">
+			<Widget id="is" src="nl.fokkezb.infiniteScroll" onEnd="tableLoader" />
+			
+			<TableViewSection>					
+				<TableViewRow model="{id}">
+					<Label class="status">{status}</Label>
+					<Label class="title">{title}</Label>
+					<Label class="date">{date}</Label>
+				</TableViewRow>		
+			</TableViewSection>
+		</TableView>
+		
+		<Require src="buttonBar"/>		
+	</View>
+</Alloy>

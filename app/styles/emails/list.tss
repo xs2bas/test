@@ -1,0 +1,31 @@
+"#emailList": {
+	top: 40
+}
+
+".direction" : {
+	left: '5%',
+	width: '5%',
+	
+	font: {
+		fontSize: '12dp'
+	}
+}
+
+".subject" : {
+	left: '15%',
+	width: '45%',
+	
+	ellipsize: true,
+	
+	font: {
+		fontSize: '12dp'
+	}
+}
+
+".date" : {
+	left: '70%',
+	
+	font: {
+		fontSize: '11dp'
+	}
+}

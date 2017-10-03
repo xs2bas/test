@@ -1,0 +1,1638 @@
+
+10/3/2017, 4:28:14 PM
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.12.6
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 6.10.3
+  npm Version                 = 3.10.10
+
+Titanium CLI
+  CLI Version                 = 5.0.14
+
+Titanium SDK
+  SDK Version                 = 6.3.0.v20170926122834
+  SDK Path                    = /Users/bas/Library/Application Support/Titanium/mobilesdk/osx/6.3.0.v20170926122834
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/bas/.appcelerator/install/6.2.4/package/node_modules/titanium/lib/titanium.js build --platform ios --log-level trace --sdk 6.3.0.v20170926122834 --project-dir /Users/bas/Documents/GitHub/Omniboxx-Huurders-App --target simulator --ios-version 11.0 --device-family universal --deploy-type development --device-id 2119CF90-E02D-45BC-AAF7-9A9B4DCDC336 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49201 --config-file /var/folders/ns/s4k1qb_116s1hzhp6br0_0pw0000gn/T/build-1507040890954.json --no-banner --project-dir /Users/bas/Documents/GitHub/Omniboxx-Huurders-App
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID 2119CF90-E02D-45BC-AAF7-9A9B4DCDC336
+[TRACE]  [ioslib] Found iOS Simulator UDID 2119CF90-E02D-45BC-AAF7-9A9B4DCDC336
+[TRACE]  [ioslib] Selected iOS Simulator: iPad (5th generation)
+[TRACE]  [ioslib]   UDID    = 2119CF90-E02D-45BC-AAF7-9A9B4DCDC336
+[TRACE]  [ioslib]   iOS     = 11.0
+[TRACE]  [ioslib] Autoselected Xcode: 9.0
+[DEBUG]  Detecting modules in /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/modules
+[DEBUG]  Detected iphone module: bencoding.securely 2.2.1 @ /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/modules/iphone/bencoding.securely/2.2.1
+[DEBUG]  Detected iphone module: ti.viewshadow 0.4 @ /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/modules/iphone/ti.viewshadow/0.4
+[DEBUG]  Detecting modules in /Users/bas/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: facebook 6.1.0 @ /Users/bas/Library/Application Support/Titanium/modules/android/facebook/6.1.0
+[DEBUG]  Detected android module: facebook 6.2.0 @ /Users/bas/Library/Application Support/Titanium/modules/android/facebook/6.2.0
+[DEBUG]  Detected android module: hyperloop 1.2.8 @ /Users/bas/Library/Application Support/Titanium/modules/android/hyperloop/1.2.8
+[DEBUG]  Detected android module: hyperloop 2.1.3 @ /Users/bas/Library/Application Support/Titanium/modules/android/hyperloop/2.1.3
+[DEBUG]  Detected android module: ti.cloudpush 4.0.3 @ /Users/bas/Library/Application Support/Titanium/modules/android/ti.cloudpush/4.0.3
+[DEBUG]  Detected android module: ti.map 3.0.1 @ /Users/bas/Library/Application Support/Titanium/modules/android/ti.map/3.0.1
+[DEBUG]  Detected android module: ti.map 3.3.0 @ /Users/bas/Library/Application Support/Titanium/modules/android/ti.map/3.3.0
+[DEBUG]  Detected android module: ti.map 3.3.1 @ /Users/bas/Library/Application Support/Titanium/modules/android/ti.map/3.3.1
+[DEBUG]  Detected android module: ti.touchid 2.1.0 @ /Users/bas/Library/Application Support/Titanium/modules/android/ti.touchid/2.1.0
+[DEBUG]  Detected android module: ti.touchid 2.2.0 @ /Users/bas/Library/Application Support/Titanium/modules/android/ti.touchid/2.2.0
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.11 @ /Users/bas/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 2.1.0 @ /Users/bas/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/2.1.0
+[DEBUG]  Detected iphone module: facebook 5.4.0 @ /Users/bas/Library/Application Support/Titanium/modules/iphone/facebook/5.4.0
+[DEBUG]  Detected iphone module: hyperloop 1.2.8 @ /Users/bas/Library/Application Support/Titanium/modules/iphone/hyperloop/1.2.8
+[DEBUG]  Detected iphone module: hyperloop 2.1.3 @ /Users/bas/Library/Application Support/Titanium/modules/iphone/hyperloop/2.1.3
+[DEBUG]  Detected iphone module: ti.coremotion 2.0.1 @ /Users/bas/Library/Application Support/Titanium/modules/iphone/ti.coremotion/2.0.1
+[DEBUG]  Detected iphone module: ti.map 2.12.1 @ /Users/bas/Library/Application Support/Titanium/modules/iphone/ti.map/2.12.1
+[DEBUG]  Detected iphone module: ti.map 2.9.0 @ /Users/bas/Library/Application Support/Titanium/modules/iphone/ti.map/2.9.0
+[DEBUG]  Detected iphone module: ti.safaridialog 1.1.1 @ /Users/bas/Library/Application Support/Titanium/modules/iphone/ti.safaridialog/1.1.1
+[DEBUG]  Detected iphone module: ti.touchid 2.1.2 @ /Users/bas/Library/Application Support/Titanium/modules/iphone/ti.touchid/2.1.2
+[DEBUG]  Detected windows module: hyperloop 2.1.3 @ /Users/bas/Library/Application Support/Titanium/modules/windows/hyperloop/2.1.3
+[DEBUG]  Looking for Titanium module id=bencoding.securely version=2.2.1 platform=iphone deploy-type=development
+[INFO]   Found Titanium module id=bencoding.securely version=2.2.1 platform=iphone deploy-type=development path=/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/modules/iphone/bencoding.securely/2.2.1
+[DEBUG]  Looking for Titanium module id=ti.viewshadow version=0.4 platform=iphone deploy-type=development
+[INFO]   Found Titanium module id=ti.viewshadow version=0.4 platform=iphone deploy-type=development path=/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/modules/iphone/ti.viewshadow/0.4
+[DEBUG]  Detecting plugins in /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/plugins
+[DEBUG]  Detected plugin: ti.alloy @ /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/plugins/ti.alloy
+[DEBUG]  Detecting plugins in /Users/bas/Library/Application Support/Titanium/plugins
+[DEBUG]  Detected plugin: hyperloop 1.2.8 @ /Users/bas/Library/Application Support/Titanium/plugins/hyperloop/1.2.8
+[DEBUG]  Detected plugin: hyperloop 2.1.3 @ /Users/bas/Library/Application Support/Titanium/plugins/hyperloop/2.1.3
+[DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
+[INFO]   Found Titanium plugin id=ti.alloy version=1.0 
+[TRACE]  Snapshotting build directory
+[DEBUG]  Checking if log server port 20640 is available
+[DEBUG]  Log server port 20640 is available
+[DEBUG]  Titanium SDK iOS directory: /Users/bas/Library/Application Support/Titanium/mobilesdk/osx/6.3.0.v20170926122834/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 11.0
+[INFO]   Building for iOS Simulator: iPad (5th generation)
+[DEBUG]  UDID: 2119CF90-E02D-45BC-AAF7-9A9B4DCDC336
+[DEBUG]  Simulator type: ipad
+[DEBUG]  Simulator version: 11.0
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Team ID: n/a
+[INFO]   Minimum iOS version: 8.0
+[INFO]   Logging enabled on port 20640
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Forcing clean build: /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build-manifest.json does not exist
+[INFO]   Initializing the build directory
+[DEBUG]  Recreating /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone
+[INFO]   Found Alloy app in /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/app
+[INFO]   Executing Alloy compile: /usr/local/bin/node /Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/bin/alloy compile /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/app --config platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator --no-colors
+[DEBUG]         .__  .__                
+[DEBUG]  _____  |  | |  |   ____ ___.__.
+[DEBUG]  \__  \ |  | |  |  /  _ <   |  |
+[DEBUG]   / __ \|  |_|  |_(  <_> )___  |
+[DEBUG]  (____  /____/____/\____// ____|
+[DEBUG]       \/                 \/
+[DEBUG]  Alloy 1.9.14 by Appcelerator. The MVC app framework for Titanium.
+[DEBUG]  ----- CONFIGURATION -----
+[DEBUG]  raw config = "platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator"
+[DEBUG]  platform = ios
+[DEBUG]  version = 0
+[DEBUG]  simtype = none
+[DEBUG]  devicefamily = universal
+[DEBUG]  deploytype = development
+[DEBUG]  target = simulator
+[DEBUG]  project path = /Users/bas/Documents/GitHub/Omniboxx-Huurders-App
+[DEBUG]  app path = /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/app
+[DEBUG]  
+[DEBUG]  ----- CONFIG.JSON -----
+[DEBUG]  dependencies = {"nl.fokkezb.infiniteScroll":"1.4.4","com.mattmcfarland.fontawesome":"1.7.2"}
+[INFO]   [config.json] config.json unchanged, using cached config.json...
+[DEBUG]  {
+[DEBUG]  "dependencies": {
+[DEBUG]  "nl.fokkezb.infiniteScroll": "1.4.4",
+[DEBUG]  "com.mattmcfarland.fontawesome": "1.7.2"
+[DEBUG]  },
+[DEBUG]  "sourcemap": true,
+[DEBUG]  "autoStyle": false,
+[DEBUG]  "adapters": [
+[DEBUG]  "localStorage",
+[DEBUG]  "properties",
+[DEBUG]  "sql"
+[DEBUG]  ]
+[DEBUG]  }
+[DEBUG]  
+[DEBUG]  ----- CLEANING RESOURCES -----
+[DEBUG]  Removing orphaned controllers ...
+[DEBUG]  Removing orphaned models ...
+[DEBUG]  Removing orphaned styles ...
+[DEBUG]  Removing orphaned sync adapters...
+[TRACE]  * iphone/alloy/sync/sqlrest.js
+[DEBUG]  Removing orphaned assets and libs...
+[TRACE]  * .DS_Store
+[TRACE]  * iphone/.DS_Store
+[DEBUG]  
+[DEBUG]  ----- BASE RUNTIME FILES -----
+[TRACE]  SRC_DIR=/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/lib
+[TRACE]  Copying SRC_DIR/alloy/sync/sql.js --> Resources/iphone/alloy/sync/sql.js
+[TRACE]  Copying SRC_DIR/alloy/sync/properties.js --> Resources/iphone/alloy/sync/properties.js
+[TRACE]  Copying SRC_DIR/alloy/sync/localStorage.js --> Resources/iphone/alloy/sync/localStorage.js
+[TRACE]  Copying SRC_DIR/alloy/controllers/BaseController.js --> Resources/iphone/alloy/controllers/BaseController.js
+[TRACE]  Copying SRC_DIR/alloy/widget.js --> Resources/iphone/alloy/widget.js
+[TRACE]  Copying SRC_DIR/alloy/underscore.js --> Resources/iphone/alloy/underscore.js
+[TRACE]  
+[TRACE]  Generating ../../../../../../Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy.js
+[TRACE]  SRC_DIR=/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/common
+[TRACE]  Copying SRC_DIR/constants.js --> Resources/iphone/alloy/constants.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/app/assets
+[TRACE]  Copying SRC_DIR/alloy/sync/sqlrest.js --> Resources/iphone/alloy/sync/sqlrest.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/app/lib
+[TRACE]  Copying SRC_DIR/crypto/x64-core.js --> Resources/iphone/crypto/x64-core.js
+[TRACE]  Copying SRC_DIR/crypto/tripledes.js --> Resources/iphone/crypto/tripledes.js
+[TRACE]  Copying SRC_DIR/crypto/sha512.js --> Resources/iphone/crypto/sha512.js
+[TRACE]  Copying SRC_DIR/crypto/sha384.js --> Resources/iphone/crypto/sha384.js
+[TRACE]  Copying SRC_DIR/crypto/sha3.js --> Resources/iphone/crypto/sha3.js
+[TRACE]  Copying SRC_DIR/crypto/sha256.js --> Resources/iphone/crypto/sha256.js
+[TRACE]  Copying SRC_DIR/crypto/sha224.js --> Resources/iphone/crypto/sha224.js
+[TRACE]  Copying SRC_DIR/crypto/sha1.js --> Resources/iphone/crypto/sha1.js
+[TRACE]  Copying SRC_DIR/crypto/ripemd160.js --> Resources/iphone/crypto/ripemd160.js
+[TRACE]  Copying SRC_DIR/crypto/rc4.js --> Resources/iphone/crypto/rc4.js
+[TRACE]  Copying SRC_DIR/crypto/rabbit.js --> Resources/iphone/crypto/rabbit.js
+[TRACE]  Copying SRC_DIR/crypto/rabbit-legacy.js --> Resources/iphone/crypto/rabbit-legacy.js
+[TRACE]  Copying SRC_DIR/crypto/pbkdf2.js --> Resources/iphone/crypto/pbkdf2.js
+[TRACE]  Copying SRC_DIR/crypto/pad-zeropadding.js --> Resources/iphone/crypto/pad-zeropadding.js
+[TRACE]  Copying SRC_DIR/crypto/pad-pkcs7.js --> Resources/iphone/crypto/pad-pkcs7.js
+[TRACE]  Copying SRC_DIR/crypto/pad-nopadding.js --> Resources/iphone/crypto/pad-nopadding.js
+[TRACE]  Copying SRC_DIR/crypto/pad-iso97971.js --> Resources/iphone/crypto/pad-iso97971.js
+[TRACE]  Copying SRC_DIR/crypto/pad-iso10126.js --> Resources/iphone/crypto/pad-iso10126.js
+[TRACE]  Copying SRC_DIR/crypto/pad-ansix923.js --> Resources/iphone/crypto/pad-ansix923.js
+[TRACE]  Copying SRC_DIR/crypto/mode-ofb.js --> Resources/iphone/crypto/mode-ofb.js
+[TRACE]  Copying SRC_DIR/crypto/mode-ecb.js --> Resources/iphone/crypto/mode-ecb.js
+[TRACE]  Copying SRC_DIR/crypto/mode-ctr.js --> Resources/iphone/crypto/mode-ctr.js
+[TRACE]  Copying SRC_DIR/crypto/mode-ctr-gladman.js --> Resources/iphone/crypto/mode-ctr-gladman.js
+[TRACE]  Copying SRC_DIR/crypto/mode-cfb.js --> Resources/iphone/crypto/mode-cfb.js
+[TRACE]  Copying SRC_DIR/crypto/md5.js --> Resources/iphone/crypto/md5.js
+[TRACE]  Copying SRC_DIR/crypto/lib-typedarrays.js --> Resources/iphone/crypto/lib-typedarrays.js
+[TRACE]  Copying SRC_DIR/crypto/index.js --> Resources/iphone/crypto/index.js
+[TRACE]  Copying SRC_DIR/crypto/hmac.js --> Resources/iphone/crypto/hmac.js
+[TRACE]  Copying SRC_DIR/crypto/hmac-sha512.js --> Resources/iphone/crypto/hmac-sha512.js
+[TRACE]  Copying SRC_DIR/crypto/hmac-sha384.js --> Resources/iphone/crypto/hmac-sha384.js
+[TRACE]  Copying SRC_DIR/crypto/hmac-sha3.js --> Resources/iphone/crypto/hmac-sha3.js
+[TRACE]  Copying SRC_DIR/crypto/hmac-sha256.js --> Resources/iphone/crypto/hmac-sha256.js
+[TRACE]  Copying SRC_DIR/crypto/hmac-sha224.js --> Resources/iphone/crypto/hmac-sha224.js
+[TRACE]  Copying SRC_DIR/crypto/hmac-sha1.js --> Resources/iphone/crypto/hmac-sha1.js
+[TRACE]  Copying SRC_DIR/crypto/hmac-ripemd160.js --> Resources/iphone/crypto/hmac-ripemd160.js
+[TRACE]  Copying SRC_DIR/crypto/hmac-md5.js --> Resources/iphone/crypto/hmac-md5.js
+[TRACE]  Copying SRC_DIR/crypto/format-openssl.js --> Resources/iphone/crypto/format-openssl.js
+[TRACE]  Copying SRC_DIR/crypto/format-hex.js --> Resources/iphone/crypto/format-hex.js
+[TRACE]  Copying SRC_DIR/crypto/evpkdf.js --> Resources/iphone/crypto/evpkdf.js
+[TRACE]  Copying SRC_DIR/crypto/enc-utf8.js --> Resources/iphone/crypto/enc-utf8.js
+[TRACE]  Copying SRC_DIR/crypto/enc-utf16.js --> Resources/iphone/crypto/enc-utf16.js
+[TRACE]  Copying SRC_DIR/crypto/enc-latin1.js --> Resources/iphone/crypto/enc-latin1.js
+[TRACE]  Copying SRC_DIR/crypto/enc-hex.js --> Resources/iphone/crypto/enc-hex.js
+[TRACE]  Copying SRC_DIR/crypto/enc-base64.js --> Resources/iphone/crypto/enc-base64.js
+[TRACE]  Copying SRC_DIR/crypto/crypto-js.js --> Resources/iphone/crypto/crypto-js.js
+[TRACE]  Copying SRC_DIR/crypto/core.js --> Resources/iphone/crypto/core.js
+[TRACE]  Copying SRC_DIR/crypto/cipher-core.js --> Resources/iphone/crypto/cipher-core.js
+[TRACE]  Copying SRC_DIR/crypto/aes.js --> Resources/iphone/crypto/aes.js
+[TRACE]  Copying SRC_DIR/xp.ui.js --> Resources/iphone/xp.ui.js
+[TRACE]  Copying SRC_DIR/validation.js --> Resources/iphone/validation.js
+[TRACE]  Copying SRC_DIR/ui.js --> Resources/iphone/ui.js
+[TRACE]  Copying SRC_DIR/hdjs.validate.js --> Resources/iphone/hdjs.validate.js
+[TRACE]  
+[DEBUG]  Resetting /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/platform/ios
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/app/platform/ios --> /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/platform/ios
+[DEBUG]  
+[DEBUG]  Resetting /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/i18n
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/i18n/en/strings.xml
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/i18n/nl/strings.xml
+[DEBUG]  
+[INFO]   ----- MVC GENERATION -----
+[INFO]   [global style] loading from cache...
+[INFO]   [models/complaint.js] model processing...
+[INFO]   Found 2 migrations for model: complaint
+[INFO]   [models/documents.js] model processing...
+[INFO]   Found 0 migrations for model: documents
+[INFO]   [models/emails.js] model processing...
+[INFO]   Found 0 migrations for model: emails
+[INFO]   [models/invoice.js] model processing...
+[INFO]   Found 0 migrations for model: invoice
+[INFO]   [models/settings.js] model processing...
+[INFO]   Found 0 migrations for model: settings
+[INFO]   [models/user.js] model processing...
+[INFO]   Found 1 migrations for model: user
+[INFO]   [widget.xml] nl.fokkezb.infiniteScroll view processing...
+[INFO]   style:      "widget.tss"
+[INFO]   view:       "widget.xml"
+[INFO]   controller: "widget.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/widgets/nl.fokkezb.infiniteScroll/controllers/widget.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/widgets/nl.fokkezb.infiniteScroll/controllers/widget.js.map"
+[INFO]   created:     "Resources/iphone/alloy/widgets/nl.fokkezb.infiniteScroll/styles/widget.js"
+[INFO]   [widget.xml] com.mattmcfarland.fontawesome view processing...
+[INFO]   view:       "widget.xml"
+[INFO]   controller: "widget.js"
+[TRACE]  WIDGET_SRC=app/widgets/com.mattmcfarland.fontawesome/assets
+[TRACE]  Copying fonts/FontAwesome.ttf --> Resources/iphone/fonts/com.mattmcfarland.fontawesome/FontAwesome.ttf...
+[TRACE]  Copying fonts/LICENSE --> Resources/iphone/fonts/com.mattmcfarland.fontawesome/LICENSE...
+[TRACE]  Copying fonts/README!!.md --> Resources/iphone/fonts/com.mattmcfarland.fontawesome/README!!.md...
+[TRACE]  
+[TRACE]  WIDGET_SRC=app/widgets/com.mattmcfarland.fontawesome/lib
+[TRACE]  Copying icons.js --> Resources/iphone/com.mattmcfarland.fontawesome/icons.js...
+[TRACE]  Copying icons.js.orig --> Resources/iphone/com.mattmcfarland.fontawesome/icons.js.orig...
+[TRACE]  
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/widgets/com.mattmcfarland.fontawesome/controllers/widget.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/widgets/com.mattmcfarland.fontawesome/controllers/widget.js.map"
+[INFO]   created:     "Resources/iphone/alloy/widgets/com.mattmcfarland.fontawesome/styles/widget.js"
+[INFO]   [backgroundImage.xml] view processing...
+[INFO]   view:       "backgroundImage.xml"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/backgroundImage.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/backgroundImage.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/backgroundImage.js"
+[INFO]   [buttonBar.xml] view processing...
+[INFO]   style:      "buttonBar.tss"
+[INFO]   view:       "buttonBar.xml"
+[INFO]   controller: "buttonBar.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/buttonBar.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/buttonBar.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/buttonBar.js"
+[INFO]   [contact.xml] view processing...
+[INFO]   view:       "contact.xml"
+[INFO]   controller: "contact.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/contact.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/contact.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/contact.js"
+[INFO]   [home.xml] view processing...
+[INFO]   style:      "home.tss"
+[INFO]   view:       "home.xml"
+[INFO]   controller: "home.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/home.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/home.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/home.js"
+[INFO]   [index.xml] view processing...
+[INFO]   style:      "index.tss"
+[INFO]   view:       "index.xml"
+[INFO]   controller: "index.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/index.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/index.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/index.js"
+[INFO]   [loader.xml] view processing...
+[INFO]   style:      "loader.tss"
+[INFO]   view:       "loader.xml"
+[INFO]   controller: "loader.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/loader.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/loader.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/loader.js"
+[INFO]   [menu.xml] view processing...
+[INFO]   style:      "menu.tss"
+[INFO]   view:       "menu.xml"
+[INFO]   controller: "menu.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/menu.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/menu.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/menu.js"
+[INFO]   [picture-list.js.xml] view processing...
+[INFO]   style:      "picture-list.js.tss"
+[INFO]   view:       "picture-list.js.xml"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/picture-list.js.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/picture-list.js.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/picture-list.js.js"
+[INFO]   [complaints/add.xml] view processing...
+[INFO]   style:      "complaints/add.tss"
+[INFO]   view:       "complaints/add.xml"
+[INFO]   controller: "complaints/add.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/complaints/add.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/complaints/add.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/complaints/add.js"
+[INFO]   [complaints/details.xml] view processing...
+[INFO]   view:       "complaints/details.xml"
+[INFO]   controller: "complaints/details.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/complaints/details.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/complaints/details.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/complaints/details.js"
+[INFO]   [complaints/list.xml] view processing...
+[INFO]   style:      "complaints/list.tss"
+[INFO]   view:       "complaints/list.xml"
+[INFO]   controller: "complaints/list.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/complaints/list.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/complaints/list.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/complaints/list.js"
+[INFO]   [complaints/picture-list.xml] view processing...
+[INFO]   view:       "complaints/picture-list.xml"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/complaints/picture-list.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/complaints/picture-list.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/complaints/picture-list.js"
+[INFO]   [complaints/showImage.xml] view processing...
+[INFO]   view:       "complaints/showImage.xml"
+[INFO]   controller: "complaints/showImage.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/complaints/showImage.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/complaints/showImage.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/complaints/showImage.js"
+[INFO]   [documents/details.xml] view processing...
+[INFO]   view:       "documents/details.xml"
+[INFO]   controller: "documents/details.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/documents/details.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/documents/details.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/documents/details.js"
+[INFO]   [documents/list.xml] view processing...
+[INFO]   style:      "documents/list.tss"
+[INFO]   view:       "documents/list.xml"
+[INFO]   controller: "documents/list.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/documents/list.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/documents/list.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/documents/list.js"
+[INFO]   [emails/details.xml] view processing...
+[INFO]   view:       "emails/details.xml"
+[INFO]   controller: "emails/details.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/emails/details.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/emails/details.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/emails/details.js"
+[INFO]   [emails/list.xml] view processing...
+[INFO]   style:      "emails/list.tss"
+[INFO]   view:       "emails/list.xml"
+[INFO]   controller: "emails/list.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/emails/list.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/emails/list.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/emails/list.js"
+[INFO]   [invoices/details.xml] view processing...
+[INFO]   view:       "invoices/details.xml"
+[INFO]   controller: "invoices/details.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/invoices/details.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/invoices/details.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/invoices/details.js"
+[INFO]   [invoices/list.xml] view processing...
+[INFO]   style:      "invoices/list.tss"
+[INFO]   view:       "invoices/list.xml"
+[INFO]   controller: "invoices/list.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/invoices/list.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/invoices/list.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/invoices/list.js"
+[INFO]   [user/login.xml] view processing...
+[INFO]   style:      "user/login.tss"
+[INFO]   view:       "user/login.xml"
+[INFO]   controller: "user/login.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/user/login.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/user/login.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/user/login.js"
+[INFO]   [user/profile.xml] view processing...
+[INFO]   view:       "user/profile.xml"
+[DEBUG]  Deprecation warning: value provided is not in a recognized ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.
+[DEBUG]  Arguments: 
+[DEBUG]  [0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 01-01-1900, _f: undefined, _strict: undefined, _locale: [object Object]
+[ERROR]  
+[DEBUG]      at Function.createFromInputFallback (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/node_modules/moment/moment.js:318:94)
+[DEBUG]      at configFromString (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/node_modules/moment/moment.js:2080:15)
+[DEBUG]      at configFromInput (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/node_modules/moment/moment.js:2444:9)
+[DEBUG]      at prepareConfig (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/node_modules/moment/moment.js:2427:9)
+[DEBUG]      at createFromConfig (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/node_modules/moment/moment.js:2394:40)
+[DEBUG]      at createLocalOrUTC (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/node_modules/moment/moment.js:2481:12)
+[DEBUG]      at createLocal (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/node_modules/moment/moment.js:2485:12)
+[DEBUG]      at hooks (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/node_modules/moment/moment.js:16:25)
+[DEBUG]      at Object.exports.createDate (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/utils.js:611:26)
+[DEBUG]      at parse (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/commands/compile/parsers/Ti.UI.Picker.js:51:10)
+[DEBUG]      at Object.exports.parse (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/commands/compile/parsers/base.js:11:17)
+[DEBUG]      at Object.exports.parse (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/commands/compile/parsers/Ti.UI.Picker.js:29:27)
+[DEBUG]      at Object.exports.generateNode (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/commands/compile/compilerUtils.js:332:48)
+[DEBUG]      at /Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/commands/compile/compilerUtils.js:421:29
+[DEBUG]      at Array.forEach (native)
+[DEBUG]      at Function._.each._.forEach (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/lib/alloy/underscore.js:79:11)
+[DEBUG]      at Object.exports.generateNode (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/commands/compile/compilerUtils.js:412:5)
+[DEBUG]      at /Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/commands/compile/compilerUtils.js:421:29
+[DEBUG]      at Array.forEach (native)
+[DEBUG]      at Function._.each._.forEach (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/lib/alloy/underscore.js:79:11)
+[DEBUG]      at Object.exports.generateNode (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/commands/compile/compilerUtils.js:412:5)
+[DEBUG]      at /Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/commands/compile/compilerUtils.js:421:29
+[DEBUG]      at Array.forEach (native)
+[DEBUG]      at Function._.each._.forEach (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/lib/alloy/underscore.js:79:11)
+[DEBUG]      at Object.exports.generateNode (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/commands/compile/compilerUtils.js:412:5)
+[DEBUG]      at /Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/commands/compile/index.js:783:28
+[DEBUG]      at Array.forEach (native)
+[DEBUG]      at Function._.each._.forEach (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/lib/alloy/underscore.js:79:11)
+[DEBUG]      at parseAlloyComponent (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/commands/compile/index.js:777:5)
+[DEBUG]      at /Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/commands/compile/index.js:412:6
+[DEBUG]      at Array.forEach (native)
+[DEBUG]      at Function._.each._.forEach (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/lib/alloy/underscore.js:79:11)
+[DEBUG]      at /Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/commands/compile/index.js:401:6
+[DEBUG]      at Array.forEach (native)
+[DEBUG]      at Function._.each._.forEach (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/lib/alloy/underscore.js:79:11)
+[DEBUG]      at module.exports (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/commands/compile/index.js:397:4)
+[DEBUG]      at Object.<anonymous> (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/Alloy/alloy.js:112:46)
+[DEBUG]      at Module._compile (module.js:570:32)
+[DEBUG]      at Object.Module._extensions..js (module.js:579:10)
+[DEBUG]      at Module.load (module.js:487:32)
+[DEBUG]      at tryModuleLoad (module.js:446:12)
+[DEBUG]      at Function.Module._load (module.js:438:3)
+[DEBUG]      at Module.require (module.js:497:17)
+[DEBUG]      at require (internal/module.js:20:19)
+[DEBUG]      at Object.<anonymous> (/Users/bas/.appcelerator/install/6.2.4/package/node_modules/alloy/bin/alloy:3:1)
+[DEBUG]      at Module._compile (module.js:570:32)
+[DEBUG]      at Object.Module._extensions..js (module.js:579:10)
+[DEBUG]      at Module.load (module.js:487:32)
+[DEBUG]      at tryModuleLoad (module.js:446:12)
+[DEBUG]      at Function.Module._load (module.js:438:3)
+[DEBUG]      at Module.runMain (module.js:604:10)
+[DEBUG]      at run (bootstrap_node.js:390:7)
+[DEBUG]      at startup (bootstrap_node.js:150:9)
+[DEBUG]      at bootstrap_node.js:505:3
+[INFO]   controller: "user/profile.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/user/profile.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/user/profile.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/user/profile.js"
+[INFO]   
+[INFO]   [app.js] using cached app.js...
+[INFO]   
+[INFO]   ----- OPTIMIZING -----
+[INFO]   - alloy/moment.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - alloy/moment/lang/en-au.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - alloy/moment/lang/en-ca.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - alloy/moment/lang/en-gb.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - alloy/moment/lang/nl.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/hdjs.validate.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/ui.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/validation.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/xp.ui.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/models/Complaint.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/models/Documents.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/models/Emails.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/models/Invoice.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/models/Settings.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/models/User.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/localStorage.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/properties.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/sql.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/sqlrest.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/widgets/com.mattmcfarland.fontawesome/styles/widget.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/widgets/nl.fokkezb.infiniteScroll/styles/widget.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/com.mattmcfarland.fontawesome/icons.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/aes.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/cipher-core.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/core.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/crypto-js.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/enc-base64.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/enc-hex.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/enc-latin1.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/enc-utf16.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/enc-utf8.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/evpkdf.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/format-hex.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/format-openssl.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/hmac-md5.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/hmac-ripemd160.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/hmac-sha1.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/hmac-sha224.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/hmac-sha256.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/hmac-sha3.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/hmac-sha384.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/hmac-sha512.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/hmac.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/index.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/lib-typedarrays.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/md5.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/mode-cfb.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/mode-ctr-gladman.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/mode-ctr.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/mode-ecb.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/mode-ofb.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/pad-ansix923.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/pad-iso10126.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/pad-iso97971.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/pad-nopadding.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/pad-pkcs7.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/pad-zeropadding.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/pbkdf2.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/rabbit-legacy.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/rabbit.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/rc4.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/ripemd160.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/sha1.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/sha224.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/sha256.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/sha3.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/sha384.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/sha512.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/tripledes.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/crypto/x64-core.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[TRACE]  
+[TRACE]  Benchmarking
+[TRACE]  ------------
+[TRACE]  [5.05347s] TOTAL
+[INFO]   
+[INFO]   Alloy compiled in 5.05347s
+[INFO]   Alloy compiler completed successfully
+[TRACE]  Starting third-party framework detection
+[TRACE]  Scanning /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/platform/ios for frameworks
+[TRACE]  offline build file /var/folders/ns/s4k1qb_116s1hzhp6br0_0pw0000gn/T/build-82dc2dc570b0c98ab3920d1a5081bb01b61b8393.json
+[TRACE]  online 1
+[TRACE]  sending request {"json":{"username":"klantenservice@omniboxx.nl","session":"396b24f2ceff4960d4a4dbb332ca1ce1f91bdf6f /yz/Uzie+K8LU4mEn7MHrWIs9xO73DjBN2+4WNYkKOdAGnQvdHj0xJw4wn2V0pFYTM6HVV+QV6Y7s/Gd6kEF65nfOf3XWMAMF+X2TqLvXEWmrZvxgJvWonDnGPcJAsvfohtj94AJKuxjrYFJHm7/XnRqbZVDEMzI+0fd6R2XXqzPB/dLc4W4p65CkwrIs6BovFt1T024d0KCq7tvGtykQWXMPv5AZD51Joj3urRrxK+0ylgoEk1O2GFTjaX7+cQRZZFz4P4JY7KHbggm/naIDrOxo533UwG0ph7yY5yEAK2UJtzOkyq/g/KM/+IQ3jCUHyVsxOrtWCXWgR/rTHMGbSWzY2PBOgVL9YdTIoJrsKJn7WhornqCyCwtGjbGRYAIt1uLglB+58pv9VigUXcsuSWZ3OB2CMPH9Nxp+KL8NFmP19aCHuUy8yTl/o55pIlL7kAOww3DvWPy+72WDdQTSuY9DL2l4kfEC2Zs9SaViVdTz2Vimm7JzadFIkS2Bp2WvPJQidaFRkmRP+jWTq21206TuoTNYlZOhuw9+UZfA7euwB3yEjUncTZEhfjCOxLi7KU9eFsslEtJB0iT1lxbMQW7ATk3O8rQz8TtCk6Ui1TQIv8EMK9qyNWnAsoYbeAr9aa1i+T2m7cLbNmD/bMkY0W3F+DgYnZAllHD3T0eB3XmOdoMobz25Hl/wwjPsrisPnvZZMrXzw/a1yLcrYOIJHle77dT95SapM/AlJDqWn8=","ipaddress":"192.168.178.110","fingerprint":"fa3f9cc8fb34f4ebefd278c41bdfbce945b3ff9b","fingerprint_description":"Mac OSX Serial Number: C07N14KPDWYL","guid":"e376df1f-7c8a-4397-9eee-819f2a926c02","appid":"com.wennet.huurders.studentexperience","name":"Huurders","org_id":100034554,"deploytype":"development","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.wennet.huurders.studentexperience</id>\n  <name>Huurders</name>\n  <version>1.0.8</version>\n  <publisher>Omniboxx</publisher>\n  <url>http://</url>\n  <description>undefined</description>\n  <copyright>2017 by Omniboxx</copyright>\n  <icon>DefaultIcon_ravel.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>e376df1f-7c8a-4397-9eee-819f2a926c02</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <ios>\n    <plist>\n      <dict>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>NSPhotoLibraryUsageDescription</key>\n        <string>Save defect pictures to your photo library</string>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n        <key>CFBundleLocalizations</key>\n        <array>\n          <string>en</string>\n          <string>nl</string>\n        </array>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    <mobileweb>\n      <precache/>\n      <splash>\n        <enabled>true</enabled>\n        <inline-css-images>true</inline-css-images>\n      </splash>\n      <theme>default</theme>\n    </mobileweb>\n    <modules>\n      <module platform=\"iphone\" version=\"2.2.1\">bencoding.securely</module>\n      <module platform=\"iphone\" version=\"0.4\">ti.viewshadow</module>\n    </modules>\n    <deployment-targets>\n      <target device=\"android\">true</target>\n      <target device=\"blackberry\">false</target>\n      <target device=\"ipad\">true</target>\n      <target device=\"iphone\">true</target>\n      <target device=\"mobileweb\">false</target>\n    </deployment-targets>\n    <sdk-version>6.3.0.v20170926122834</sdk-version>\n    <plugins>\n      <plugin version=\"1.0\">ti.alloy</plugin>\n    </plugins>\n    <property name=\"appc-app-id\" type=\"string\">59d39e6578a921345abbf7a5</property>\n  </ti:app>","modules":[{"id":"bencoding.securely","platform":["iphone"],"version":"2.2.1","deployType":["development"],"modulePath":"/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/modules/iphone/bencoding.securely/2.2.1","manifest":{"version":"2.2.1","apiversion":"2","architectures":"armv7 i386 x86_64 arm64","description":"Security Plugin for Titanium Development","author":"Benjamin Bahrenburg (benCoding)","license":"See included license agreement","copyright":"Copyright (c) 2013 by Benjamin Bahrenburg","name":"Securely","moduleid":"bencoding.securely","guid":"36a465bb-c79d-4c6c-b90c-a5e14a7e817b","platform":"iphone","minsdk":"5.4.0.GA"},"native":true,"libName":"libbencoding.securely.a","libFile":"/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/modules/iphone/bencoding.securely/2.2.1/libbencoding.securely.a","hash":"bdd23c553a454ff57543d2ec01e471fb"},{"id":"ti.viewshadow","platform":["iphone"],"version":"0.4","deployType":["development"],"modulePath":"/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/modules/iphone/ti.viewshadow/0.4","manifest":{"version":"0.4","description":"TiViewShadow module. Allows adding drop shadow to any Ti.UI.View","author":"Javier Rayon, Olivier Morandi, Daniel Tamas","license":"MIT License","copyright":"Copyright (c) 2012 by Javier Rayon, Olivier Morandi, Daniel Tamas","name":"tiviewshadow","moduleid":"ti.viewshadow","guid":"03caadce-b6e4-414e-8dae-f24c855f0dd8","platform":"iphone","minsdk":"1.8.2"},"native":true,"libName":"libti.viewshadow.a","libFile":"/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/modules/iphone/ti.viewshadow/0.4/libti.viewshadow.a","hash":"c71edddc9d12f3686d8aebbf757b6c06"}]},"gzip":true,"followAllRedirects":true,"url":"https://platform.appcelerator.com/api/v1/auth/build-verify"}
+[TRACE]  result from /build-verify=> {"key":"MEgafpiuxb5XF2mPCg9THw==","pepper":"m6hy1W4u4rGSciZ5Z6N9LQ==","hmacKey":"3C1uJbCZ9zOaJ2M0NBtIbA==","o":100034554,"u":"26ff2aa2-5cb9-4c75-922d-ee2329507b7d","p":"starter","i":"59d39e8578a921345abbf7b0","success":true}, err=null
+[INFO]   JavaScript files need to be encrypted
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  Adding 2 native module libraries
+[TRACE]  No extensions to add
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Huurders.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[INFO]   Creating Info.plist
+[DEBUG]  Checking for Splash Screen localization
+[INFO]   Disabling ATS
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Info.plist
+[INFO]   Creating main.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/project.xcconfig
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[DEBUG]  Symlinking /Users/bas/Library/Application Support/Titanium/mobilesdk/osx/6.3.0.v20170926122834/iphone/libTiCore.a => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/lib/libTiCore.a
+[DEBUG]  Symlinking /Users/bas/Library/Application Support/Titanium/mobilesdk/osx/6.3.0.v20170926122834/iphone/libtiverify.a => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/lib/libtiverify.a
+[DEBUG]  Symlinking /Users/bas/Library/Application Support/Titanium/mobilesdk/osx/6.3.0.v20170926122834/iphone/libti_ios_debugger.a => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/lib/libti_ios_debugger.a
+[DEBUG]  Symlinking /Users/bas/Library/Application Support/Titanium/mobilesdk/osx/6.3.0.v20170926122834/iphone/libti_ios_profiler.a => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AFOpenFlow/AFItemView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AFOpenFlow/AFItemView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AFOpenFlow/AFOpenFlowConstants.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AFOpenFlow/AFOpenFlowView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AFOpenFlow/AFOpenFlowView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AFOpenFlow/AFUIImageReflection.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AFOpenFlow/AFUIImageReflection.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AFOpenFlow/UIImageExtras.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AFOpenFlow/UIImageExtras.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/APIModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/APIModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/APSAnalytics/APSAnalytics.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/APSAnalytics/libAPSAnalytics.a
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/APSHTTPClient/APSHTTPClient.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/APSHTTPClient/APSHTTPHelper.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/APSHTTPClient/APSHTTPPostForm.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/APSHTTPClient/APSHTTPRequest.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/APSHTTPClient/APSHTTPResponse.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/APSHTTPClient/libAPSHTTPClient.a
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AccelerometerModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AccelerometerModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AnalyticsModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AnalyticsModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AppModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AppModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/ApplicationDefaults.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/ApplicationDefaults.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/ApplicationMods.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/ApplicationMods.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/ApplicationRouting.h
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AsyncSocket.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AsyncSocket.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AsyncUdpSocket.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AsyncUdpSocket.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AudioStreamer/AudioStreamer.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AudioStreamer/AudioStreamer.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AudioStreamer/AudioStreamerCUR.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/AudioStreamer/AudioStreamerCUR.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Base64Transcoder.c
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Base64Transcoder.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Bridge.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Bridge.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/CalendarModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/CalendarModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/CodecModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/CodecModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/ContactsModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/ContactsModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/DatabaseModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/DatabaseModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/FilesystemModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/FilesystemModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/GDataXMLNode.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/GDataXMLNode.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/GeolocationModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/GeolocationModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/GestureModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/GestureModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/ImageLoader.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/ImageLoader.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollBridge.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollBridge.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollCallback.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollCallback.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollContext.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollContext.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollCoverage.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollCoverage.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollMethod.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollMethod.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollMethodDelegate.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollMethodDelegate.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollObject.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollObject.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollPropertyDelegate.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollPropertyDelegate.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollTimer.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/KrollTimer.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/LauncherButton.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/LauncherButton.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/LauncherItem.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/LauncherItem.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/LauncherView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/LauncherView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Layout/TiLayoutDimension.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Layout/TiLayoutDimension.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Layout/TiLayoutView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Layout/TiLayoutView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/LayoutConstraint.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/LayoutConstraint.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/ListenerEntry.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/ListenerEntry.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/LocaleModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/LocaleModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/MediaModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/MediaModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Mimetypes.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Mimetypes.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/NSData+Additions.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/NSData+Additions.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/NetworkModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/NetworkModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/OperationQueue.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/OperationQueue.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/PlatformModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/PlatformModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/PlausibleDatabase/PLDatabase.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/PlausibleDatabase/PLPreparedStatement.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/PlausibleDatabase/PLResultSet.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/PlausibleDatabase/PLSqliteDatabase.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/PlausibleDatabase/PLSqliteDatabase.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/PlausibleDatabase/PLSqlitePreparedStatement.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/PlausibleDatabase/PLSqlitePreparedStatement.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/PlausibleDatabase/PLSqliteResultSet.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/PlausibleDatabase/PLSqliteResultSet.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/PlausibleDatabase/PlausibleDatabase.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/PlausibleDatabase/PlausibleDatabase.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Reachability.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Reachability.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/SCListener.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/SCListener.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/StreamModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/StreamModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TIDOMCharacterDataProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TIDOMCharacterDataProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TIDOMDOMImplementationProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TIDOMDOMImplementationProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TIDOMDocumentTypeProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TIDOMDocumentTypeProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TIUIiOSAlertDialogStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TIUIiOSAlertDialogStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/ThirdpartyNS.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Ti2DMatrix.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Ti2DMatrix.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Ti3DMatrix.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Ti3DMatrix.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAction.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAction.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAnchorAttachBehavior.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAnchorAttachBehavior.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAnimation.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAnimation.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAnimatorProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAnimatorProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiApp.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiApp.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppPropertiesProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppPropertiesProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSBackgroundServiceProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSBackgroundServiceProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSLocalNotificationProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSLocalNotificationProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSNotificationActionProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSNotificationActionProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSNotificationCategoryProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSNotificationCategoryProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSSearchQueryProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSSearchQueryProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSSearchableIndexProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSSearchableIndexProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSSearchableItemAttributeSetProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSSearchableItemAttributeSetProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSSearchableItemProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSSearchableItemProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSUserActivityProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSUserActivityProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSUserDefaultsProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiAppiOSUserDefaultsProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiBase.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiBase.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiBindingEvent.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiBindingEvent.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiBindingRunLoop.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiBindingRunLoop.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiBindingTiValue.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiBindingTiValue.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiBlob.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiBlob.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiBuffer.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiBuffer.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiButtonUtil.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiButtonUtil.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiCalendarAlert.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiCalendarAlert.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiCalendarAttendee.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiCalendarAttendee.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiCalendarCalendar.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiCalendarCalendar.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiCalendarEvent.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiCalendarEvent.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiCalendarRecurrenceRule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiCalendarRecurrenceRule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiCalendarReminder.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiCalendarReminder.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiCollisionBehavior.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiCollisionBehavior.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiColor.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiColor.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiComplexValue.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiComplexValue.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiConsole.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiConsole.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiContactsGroup.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiContactsGroup.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiContactsPerson.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiContactsPerson.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiController.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiControllerProtocols.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMAttrProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMAttrProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMCDATANodeProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMCDATANodeProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMCommentProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMCommentProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMDocFragProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMDocFragProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMDocumentProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMDocumentProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMElementProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMElementProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMEntityProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMEntityProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMEntityRefProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMEntityRefProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMNamedNodeMapProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMNamedNodeMapProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMNodeListProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMNodeListProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMNodeProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMNodeProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMNotationProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMNotationProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMPIProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMPIProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMTextNodeProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMTextNodeProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMValidator.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDOMValidator.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDataStream.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDataStream.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDatabaseProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDatabaseProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDatabaseResultSetProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDatabaseResultSetProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDebugger.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDimension.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDimension.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDynamicItemBehavior.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiDynamicItemBehavior.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiErrorController.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiErrorController.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiEvaluator.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiExceptionHandler.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiExceptionHandler.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiFile.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiFile.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiFilesystemBlobProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiFilesystemBlobProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiFilesystemFileProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiFilesystemFileProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiFilesystemFileStreamProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiFilesystemFileStreamProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiGradient.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiGradient.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiGravityBehavior.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiGravityBehavior.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiHost.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiHost.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiLayoutQueue.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiLayoutQueue.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiLocale.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiLocale.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiLogServer.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiLogServer.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaAudioPlayerProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaAudioPlayerProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaAudioRecorderProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaAudioRecorderProxy.mm
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaAudioSession.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaAudioSession.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaItem.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaItem.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaMusicPlayer.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaMusicPlayer.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaSoundProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaSoundProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaSystemAlertProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaSystemAlertProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaVideoPlayer.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaVideoPlayer.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaVideoPlayerProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiMediaVideoPlayerProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiNetworkBonjourBrowserProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiNetworkBonjourBrowserProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiNetworkBonjourServiceProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiNetworkBonjourServiceProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiNetworkCookieProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiNetworkCookieProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiNetworkHTTPClientProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiNetworkHTTPClientProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiNetworkSocketProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiNetworkSocketProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiNetworkSocketTCPProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiNetworkSocketTCPProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiNetworkTCPSocketProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiNetworkTCPSocketProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiPlatformDisplayCaps.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiPlatformDisplayCaps.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiPoint.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiPoint.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiPreviewingDelegate.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiPreviewingDelegate.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiProfiler/TiProfiler.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiPublicAPI.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiPublicAPI.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiPushBehavior.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiPushBehavior.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiRect.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiRect.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiRootViewController.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiRootViewController.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiSelectedCellbackgroundView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiSelectedCellbackgroundView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiSnapBehavior.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiSnapBehavior.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiStreamProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiStreamProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiStylesheet.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiStylesheet.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiTab.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiTabGroup.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiThreading.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiThreading.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiToJS.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiToolbar.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiToolbarButton.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIActivityIndicator.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIActivityIndicator.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIActivityIndicatorProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIActivityIndicatorProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIActivityIndicatorStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIActivityIndicatorStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIAlertDialogProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIAlertDialogProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIAttributedStringProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIAttributedStringProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIButton.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIButton.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIButtonBar.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIButtonBar.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIButtonBarProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIButtonBarProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIButtonProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIButtonProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUICanvasView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUICanvasView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUICanvasViewProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUICanvasViewProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIClipboardProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIClipboardProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIDashboardItem.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIDashboardItem.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIDashboardItemProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIDashboardItemProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIDashboardView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIDashboardView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIDashboardViewProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIDashboardViewProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIEmailDialogProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIEmailDialogProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIImageView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIImageView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIImageViewProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIImageViewProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUILabel.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUILabel.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUILabelProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUILabelProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIListItem.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIListItem.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIListItemProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIListItemProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIListSectionProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIListSectionProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIListView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIListView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIListViewProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIListViewProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIMaskedImage.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIMaskedImage.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIMaskedImageProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIMaskedImageProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUINavBarButton.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUINavBarButton.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIOptionDialogProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIOptionDialogProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIPicker.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIPicker.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIPickerColumnProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIPickerColumnProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIPickerProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIPickerProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIPickerRowProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIPickerRowProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIProgressBar.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIProgressBar.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIProgressBarProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIProgressBarProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIRefreshControlProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIRefreshControlProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIScrollView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIScrollView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIScrollViewProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIScrollViewProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIScrollableView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIScrollableView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIScrollableViewProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIScrollableViewProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUISearchBar.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUISearchBar.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUISearchBarProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUISearchBarProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUISlider.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUISlider.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUISliderProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUISliderProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUISwitch.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUISwitch.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUISwitchProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUISwitchProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITabGroup.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITabGroup.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITabGroupProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITabGroupProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITabProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITabProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITableView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITableView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITableViewAction.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITableViewAction.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITableViewProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITableViewProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITableViewRowProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITableViewRowProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITableViewSectionProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITableViewSectionProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITextArea.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITextArea.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITextAreaProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITextAreaProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITextField.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITextField.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITextFieldProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITextFieldProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITextWidget.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITextWidget.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITextWidgetProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUITextWidgetProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIToolbar.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIToolbar.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIToolbarProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIToolbarProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIViewProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIViewProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIWebView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIWebView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIWebViewProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIWebViewProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIWindow.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIWindow.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIWindowProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIWindowProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSAdView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSAdView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSAdViewProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSAdViewProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSAnimationStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSAnimationStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSApplicationShortcutsProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSApplicationShortcutsProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSBlurView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSBlurView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSBlurViewProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSBlurViewProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSCoverFlowView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSCoverFlowView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSCoverFlowViewProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSCoverFlowViewProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSDocumentViewerProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSDocumentViewerProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSFeedbackGeneratorProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSFeedbackGeneratorProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSLivePhoto.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSLivePhoto.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSLivePhotoView.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSLivePhotoView.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSLivePhotoViewProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSLivePhotoViewProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSMenuPopup.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSMenuPopup.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSMenuPopupProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSMenuPopupProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSNavWindow.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSNavWindow.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSNavWindowProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSNavWindowProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSPreviewActionGroupProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSPreviewActionGroupProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSPreviewActionProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSPreviewActionProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSPreviewContextProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSPreviewContextProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSProgressBarStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSProgressBarStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSRowAnimationStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSRowAnimationStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSScrollIndicatorStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSScrollIndicatorStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSSplitWindow.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSSplitWindow.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSSplitWindowProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSSplitWindowProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSStatusBarProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSStatusBarProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSStepper.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSStepper.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSStepperProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSStepperProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSSystemButtonProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSSystemButtonProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSSystemButtonStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSSystemButtonStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSSystemIconProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSSystemIconProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSTabbedBarProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSTabbedBarProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSTableViewCellSelectionStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSTableViewCellSelectionStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSTableViewScrollPositionProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSTableViewScrollPositionProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSTableViewStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSTableViewStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSTransitionAnimationProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiOSTransitionAnimationProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPadPopoverProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPadPopoverProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPadProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPadProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneActivityIndicatorStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneActivityIndicatorStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneAlertDialogStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneAlertDialogStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneAnimationStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneAnimationStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneListViewCellSelectionStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneListViewCellSelectionStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneListViewScrollPositionProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneListViewScrollPositionProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneListViewSeparatorStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneListViewSeparatorStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneListViewStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneListViewStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneProgressBarStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneProgressBarStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneRowAnimationStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneRowAnimationStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneScrollIndicatorStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneScrollIndicatorStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneStatusBarProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneStatusBarProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneSystemButtonProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneSystemButtonProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneSystemButtonStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneSystemButtonStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneSystemIconProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneSystemIconProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneTableViewCellSelectionStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneTableViewCellSelectionStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneTableViewScrollPositionProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneTableViewScrollPositionProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneTableViewSeparatorStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneTableViewSeparatorStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneTableViewStyleProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUIiPhoneTableViewStyleProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUtils.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiUtils.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiViewAttachBehavior.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiViewAttachBehavior.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiViewController.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiViewController.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiViewProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiViewProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiViewTemplate.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiViewTemplate.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiWindowProxy.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TiWindowProxy.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TopTiModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/TopTiModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/UIImage+Alpha.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/UIImage+Alpha.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/UIImage+Resize.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/UIImage+Resize.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/UIImage+RoundedCorner.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/UIImage+RoundedCorner.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/UIModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/UIModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/UtilsModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/UtilsModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/WatchSessionModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/WatchSessionModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/WebFont.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/WebFont.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Webcolor.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/Webcolor.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/XHRBridge.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/XHRBridge.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/XMLModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/XMLModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/YahooModule.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Classes/YahooModule.m
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/headers/JavaScriptCore/Ti.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/headers/JavaScriptCore/TiBase.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/headers/JavaScriptCore/TiContext.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/headers/JavaScriptCore/TiContextRef.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/headers/JavaScriptCore/TiCore.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/headers/JavaScriptCore/TiExport.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/headers/JavaScriptCore/TiManagedValue.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/headers/JavaScriptCore/TiObjectRef.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/headers/JavaScriptCore/TiStringRef.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/headers/JavaScriptCore/TiStringRefCF.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/headers/JavaScriptCore/TiValue.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/headers/JavaScriptCore/TiValueRef.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/headers/JavaScriptCore/TiVirtualMachine.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/headers/JavaScriptCore/WebKitAvailability.h
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Huurders_Prefix.pch
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Huurders.xcodeproj/xcshareddata/xcschemes/Huurders.xcscheme
+[INFO]   Cleaning Xcode derived data
+[DEBUG]  Invoking: DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild clean
+[TRACE]  === CLEAN TARGET Huurders OF PROJECT Huurders WITH THE DEFAULT CONFIGURATION (Release) ===
+[TRACE]  Check dependencies
+[TRACE]  [BCEROR]Code Signing Error: The file "/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Huurders.entitlements" could not be opened. Verify the value of the CODE_SIGN_ENTITLEMENTS build setting for target "Huurders" and build configuration "Release" is correct and that the file exists on disk.
+[TRACE]  [BCEROR]Code Signing Error: Code signing is required for product type 'Application' in SDK 'iOS 11.0'
+[TRACE]  Create product structure
+[TRACE]  /bin/mkdir -p /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Release-iphoneos/Huurders.app
+[TRACE]  Clean.Remove clean build/Release-iphoneos/Huurders.app
+[TRACE]  builtin-rm -rf /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Release-iphoneos/Huurders.app
+[TRACE]  Clean.Remove clean build/SharedPrecompiledHeaders/Huurders_Prefix-bzlbylezqjfukvhkhgfbqtpxpoib/Huurders_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/SharedPrecompiledHeaders/Huurders_Prefix-bzlbylezqjfukvhkhgfbqtpxpoib/Huurders_Prefix.pch.pch
+[TRACE]  Clean.Remove clean build/SharedPrecompiledHeaders/Huurders_Prefix-afhjdwqzozdaophbijnfshwgvhaw/Huurders_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/SharedPrecompiledHeaders/Huurders_Prefix-afhjdwqzozdaophbijnfshwgvhaw/Huurders_Prefix.pch.pch
+[TRACE]  Clean.Remove clean build/SharedPrecompiledHeaders/Huurders_Prefix-hepfoewblytiukgnlcsjmwgbqpif/Huurders_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/SharedPrecompiledHeaders/Huurders_Prefix-hepfoewblytiukgnlcsjmwgbqpif/Huurders_Prefix.pch.pch
+[TRACE]  Clean.Remove clean build/SharedPrecompiledHeaders/Huurders_Prefix-fqhxebvlldxrgafnpdhljskwbxns/Huurders_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/SharedPrecompiledHeaders/Huurders_Prefix-fqhxebvlldxrgafnpdhljskwbxns/Huurders_Prefix.pch.pch
+[TRACE]  Clean.Remove clean build/SharedPrecompiledHeaders/Huurders_Prefix-efejpyshrxowazglnpcrztlmgdtu/Huurders_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/SharedPrecompiledHeaders/Huurders_Prefix-efejpyshrxowazglnpcrztlmgdtu/Huurders_Prefix.pch.pch
+[TRACE]  Clean.Remove clean build/SharedPrecompiledHeaders/Huurders_Prefix-fhzjvggvreuehqamdnqzqzgpckoh/Huurders_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/SharedPrecompiledHeaders/Huurders_Prefix-fhzjvggvreuehqamdnqzqzgpckoh/Huurders_Prefix.pch.pch
+[TRACE]  Clean.Remove clean build/SharedPrecompiledHeaders/Huurders_Prefix-ficnxziugamsqafuamhrqxgutkhq/Huurders_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/SharedPrecompiledHeaders/Huurders_Prefix-ficnxziugamsqafuamhrqxgutkhq/Huurders_Prefix.pch.pch
+[TRACE]  Clean.Remove clean build/SharedPrecompiledHeaders/Huurders_Prefix-axuegypnpjcvisbypjhidtwybshk/Huurders_Prefix.pch.pch
+[TRACE]  builtin-rm -rf /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/SharedPrecompiledHeaders/Huurders_Prefix-axuegypnpjcvisbypjhidtwybshk/Huurders_Prefix.pch.pch
+[TRACE]  Clean.Remove clean build/Release-iphoneos/Huurders.app.dSYM
+[TRACE]  builtin-rm -rf /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Release-iphoneos/Huurders.app.dSYM
+[TRACE]  Clean.Remove clean build/Huurders.build/Release-iphoneos/Huurders.build
+[TRACE]  builtin-rm -rf /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Huurders.build/Release-iphoneos/Huurders.build
+[TRACE]  ** CLEAN SUCCEEDED **
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/debugger.plist
+[DEBUG]  Skipping /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[WARN]   The default icon "DefaultIcon.png" contains an alpha channel and will be flattened against a white background
+[WARN]   You may create an image named "DefaultIcon-ios.png" that does not have an alpha channel in the root of your project
+[WARN]   It is highly recommended that the DefaultIcon.png be 1024x1024
+[DEBUG]  Stripping alpha channel: /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/DefaultIcon.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/DefaultIcon.png
+[DEBUG]  Found /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/DefaultIcon.png (1024x1024)
+[INFO]   Missing 12 app icons, generating missing icons
+[INFO]     DefaultIcon_ravel-Small.png - Used for iPad - size: 29x29
+[INFO]     DefaultIcon_ravel-Small@2x.png - Used for iPhone, iPad - size: 58x58
+[INFO]     DefaultIcon_ravel-Small@3x.png - Used for iPhone - size: 87x87
+[INFO]     DefaultIcon_ravel-Small-40.png - Used for iPad - size: 40x40
+[INFO]     DefaultIcon_ravel-Small-40@2x.png - Used for iPhone, iPad - size: 80x80
+[INFO]     DefaultIcon_ravel-Small-40@3x.png - Used for iPhone - size: 120x120
+[INFO]     DefaultIcon_ravel-60@2x.png - Used for iPhone - size: 120x120
+[INFO]     DefaultIcon_ravel-60@3x.png - Used for iPhone - size: 180x180
+[INFO]     DefaultIcon_ravel-76.png - Used for iPad - size: 76x76
+[INFO]     DefaultIcon_ravel-76@2x.png - Used for iPad - size: 152x152
+[INFO]     DefaultIcon_ravel-83.5@2x.png - Used for iPad - size: 167x167
+[INFO]     DefaultIcon_ravel-Marketing.png - Used for iPhone - size: 1024x1024
+[TRACE]  Resizing images: java -jar "/Users/bas/Library/Application Support/Titanium/mobilesdk/osx/6.3.0.v20170926122834/node_modules/node-appc/tools/resizer/resizer.jar" "/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/DefaultIcon.png" "/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/AppIcon.appiconset/DefaultIcon_ravel-Small.png" 29 29 "/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/AppIcon.appiconset/DefaultIcon_ravel-Small@2x.png" 58 58 "/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/AppIcon.appiconset/DefaultIcon_ravel-Small@3x.png" 87 87 "/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/AppIcon.appiconset/DefaultIcon_ravel-Small-40.png" 40 40 "/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/AppIcon.appiconset/DefaultIcon_ravel-Small-40@2x.png" 80 80 "/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/AppIcon.appiconset/DefaultIcon_ravel-Small-40@3x.png" 120 120 "/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/AppIcon.appiconset/DefaultIcon_ravel-60@2x.png" 120 120 "/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/AppIcon.appiconset/DefaultIcon_ravel-60@3x.png" 180 180 "/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/AppIcon.appiconset/DefaultIcon_ravel-76.png" 76 76 "/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/AppIcon.appiconset/DefaultIcon_ravel-76@2x.png" 152 152 "/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/AppIcon.appiconset/DefaultIcon_ravel-83.5@2x.png" 167 167 "/Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/AppIcon.appiconset/DefaultIcon_ravel-Marketing.png" 1024 1024
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default-Portrait-667h@2x.png, skipping
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[WARN]   Missing 2 launch images:
+[WARN]     Default
+[WARN]       Default-Landscape-2436h@3x.png - Used for iPhone - dimensions: 2436x1125, orientation: landscape
+[WARN]       Default-Portrait-2436h@3x.png - Used for iPhone - dimensions: 1125x2436, orientation: portrait
+[DEBUG]  Writing /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[INFO]   App thinning disabled, skipping asset image sets
+[DEBUG]  Copying resources
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/appicon-60.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/appicon-60.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/appicon-60@2x.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/appicon-60@2x.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/appicon-60@3x.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/appicon-60@3x.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/appicon-72.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/appicon-72.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/appicon-72@2x.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/appicon-72@2x.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/appicon-76.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/appicon-76.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/appicon-76@2x.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/appicon-76@2x.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/appicon-Small-40.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/appicon-Small-40.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/appicon-Small-40@2x.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/appicon-Small-40@2x.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/appicon-Small-50.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/appicon-Small-50.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/appicon-Small-50@2x.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/appicon-Small-50@2x.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/appicon-Small.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/appicon-Small.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/appicon-Small@2x.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/appicon-Small@2x.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/appicon.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/appicon.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/appicon@2x.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/appicon@2x.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/blackberry/Ti.Manifest => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/blackberry/Ti.Manifest
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/blackberry/appicon.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/blackberry/appicon.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/blackberry/map/bubble.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/blackberry/map/bubble.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/blackberry/map/green_pin.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/blackberry/map/green_pin.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/blackberry/map/purple_pin.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/blackberry/map/purple_pin.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/blackberry/map/red_pin.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/blackberry/map/red_pin.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/blackberry/splash-600x1024.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/blackberry/splash-600x1024.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/com.mattmcfarland.fontawesome/icons.js.orig => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/com.mattmcfarland.fontawesome/icons.js.orig
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/crypto/CONTRIBUTING.md => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/crypto/CONTRIBUTING.md
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/crypto/README.md => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/crypto/README.md
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/crypto/bower.json => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/crypto/bower.json
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/crypto/docs/QuickStartGuide.wiki => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/crypto/docs/QuickStartGuide.wiki
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/crypto/package.json => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/crypto/package.json
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/fonts/com.mattmcfarland.fontawesome/FontAwesome.ttf => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/fonts/com.mattmcfarland.fontawesome/FontAwesome.ttf
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/fonts/com.mattmcfarland.fontawesome/LICENSE => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/fonts/com.mattmcfarland.fontawesome/LICENSE
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/fonts/com.mattmcfarland.fontawesome/README!!.md => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/fonts/com.mattmcfarland.fontawesome/README!!.md
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/iTunesArtwork => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/iTunesArtwork
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/iTunesArtwork@2x => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/iTunesArtwork@2x
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/images/background.jpg => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/images/background.jpg
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/images/mvgm.jpg => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/images/mvgm.jpg
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/images/mvgm.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/images/mvgm.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/images/mvgm_cropped.jpg => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/images/mvgm_cropped.jpg
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/images/mvgm_jj.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/images/mvgm_jj.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/images/ravel.jpg => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/build/Products/Debug-iphonesimulator/Huurders.app/images/ravel.jpg
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/platform/ios/Huurders.entitlements => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Huurders.entitlements
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/platform/ios/alloy_generated => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/alloy_generated
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/Default-568h@2x.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/Default-667h@2x.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/Default-Landscape-736h@3x.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/Default-Landscape.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/Default-Landscape@2x.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/Default-Portrait-736h@3x.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/Default-Portrait.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/Default-Portrait@2x.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/Default@2x.png => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/CFG.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/CFG_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/alloy/moment/lang/en-au.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/moment/lang/en-au_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/alloy/moment/lang/en-ca.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/moment/lang/en-ca_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/alloy/moment/lang/en-gb.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/moment/lang/en-gb_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/alloy/moment/lang/nl.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/moment/lang/nl_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/alloy/moment.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/moment_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/app.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/app_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/backbone.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/backbone_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/constants.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/constants_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/BaseController.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/BaseController_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/backgroundImage.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/backgroundImage_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/buttonBar.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/buttonBar_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/complaints/add.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/complaints/add_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/complaints/details.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/complaints/details_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/complaints/list.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/complaints/list_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/complaints/picture-list.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/complaints/picture-list_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/complaints/showImage.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/complaints/showImage_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/contact.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/contact_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/documents/details.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/documents/details_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/documents/list.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/documents/list_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/emails/details.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/emails/details_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/emails/list.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/emails/list_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/home.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/home_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/index.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/index_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/invoices/details.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/invoices/details_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/invoices/list.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/invoices/list_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/loader.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/loader_js
+[DEBUG]  Copying /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/Resources/iphone/alloy/controllers/menu.js => /Users/bas/Documents/GitHub/Omniboxx-Huurders-App/build/iphone/assets/alloy/controllers/menu_js

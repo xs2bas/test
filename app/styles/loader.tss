@@ -1,0 +1,22 @@
+"#activityIndicator": {
+	visible: false,
+	zIndex: 333,
+}
+
+"#activityIndicatorBackground": { 
+	left: '20%',
+	top: '50%',
+	backgroundColor: '#FFFFFF',
+	borderRadius: 6,
+    opacity: 0.3,
+    width: 250,
+    height: 150
+}
+
+"#activityIndicatorText": {
+	left: '20%',
+	top: '55%',
+	color: 'white',
+    width: 200,
+    height: 50
+}

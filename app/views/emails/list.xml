@@ -1,0 +1,27 @@
+<Alloy>
+	<Collection src="emails" id="emailsCollection" instance="true" />
+
+	<View id="main">		
+		<View class="listLegend">
+			<Label class="direction"></Label>
+			<Label class="subject">L('emails_list_subject')</Label>
+			<Label class="date">L('emails_list_date')</Label>
+		</View>
+					
+		<TableView id="emailList" dataCollection="$.emailsCollection">
+		    <Widget id="is" src="nl.fokkezb.infiniteScroll" onEnd="tableLoader" />
+			
+			<TableViewSection>					
+				<TableViewRow model="{id}">
+					<Label class="direction">
+						<ImageView class="directionmImage" image="{direction_image}"></ImageView>
+					</Label>
+					<Label class="subject">{subject}</Label>
+					<Label class="date">{date}</Label>
+				</TableViewRow>		
+			</TableViewSection>
+		</TableView>	
+					
+		<Require src="buttonBar"/>
+	</View>
+</Alloy>

@@ -1,0 +1,7 @@
+<Alloy>
+	<Model src="invoice" instance="true" id="invoice" />
+	
+	<Window>
+		<WebView id="webview" />
+	</Window>
+</Alloy>

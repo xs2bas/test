@@ -1,0 +1,8 @@
+".doLogout": {
+	color:"#FF0000"
+}
+
+"TabbedBar": {
+	width: "90%",
+	left: 5
+}

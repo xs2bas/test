@@ -1,0 +1,29 @@
+<Alloy>
+	<Model src="emails" instance="true" id="emails" />
+	
+	<Window>
+		
+		<TableView height="100" top="0">
+			<TableViewSection>					
+				<TableViewRow>		
+					<Label class="formlabel" text="L('emails_list_subject')"></Label>
+					<Label class="formvalue">{$.emails.subject}</Label>
+				</TableViewRow>
+				
+				<TableViewRow>		
+					<Label class="formlabel" text="L('emails_list_date')"></Label>
+					<Label class="formvalue">{$.emails.date}</Label>
+				</TableViewRow>
+			</TableViewSection>	
+		</TableView>
+		
+		<View left="0" top="90" width="100%" class="formvalue" id="attachments">
+			<Label top="0" left="20" class="formlabel" text="L('emails_details_attachments')"></Label>
+			<View left="33%" paddingLeft="10" right="0" id="attachments_list"></View>
+		</View>
+		
+		<WebView left="20" right="20" bottom="80" id="webview" html="{$.emails.message}" />
+
+		<Require src="buttonBar"/>		
+	</Window>
+</Alloy>

@@ -1,0 +1,1 @@
+module.exports={"dependencies":{"nl.fokkezb.infiniteScroll":"1.4.4","com.mattmcfarland.fontawesome":"1.7.2"}};

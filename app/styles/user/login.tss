@@ -1,0 +1,38 @@
+'.form': {
+    top: '10%',
+    width: '80%',
+    height: '33%',
+    zIndex: 1000
+}
+
+'.formBackground': {
+	backgroundColor: '#FFFFFF',
+	borderRadius: 3,
+    opacity: 0.3,
+    top: '10%',
+    width: '80%',
+    height: '33%'
+}
+
+'TextField': {
+	left: '10%',
+	width: '80%',
+	height: 30,
+	paddingLeft: 10,
+	font: {
+		fontSize: '14dp'
+	},
+	backgroundColor: '#FFFFFF',
+}
+
+'Button': {
+	left: '10%',
+	width: '80%',
+	color: '#FFFFFF'
+}
+
+'Label': {
+	left: '10%',
+	width: '80%',
+	color: '#FFFFFF',
+}

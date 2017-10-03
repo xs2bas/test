@@ -1,0 +1,39 @@
+
+".translated_period" : {
+	left: 10,
+	
+	font: {
+		fontSize: '12dp'
+	}
+}
+
+
+
+"#invoiceList": {
+	top: 40
+}
+
+".identifier" : {
+	left: '35%',
+	
+	font: {
+		fontSize: '12dp'
+	}
+}
+
+".amount" : {
+	left: '60%',
+	textAlign: 'right',
+	width: '20%',
+	font: {
+		fontSize: '12dp'
+	}
+}
+
+".payed" : {
+	left: '85%',
+	
+	font: {
+		fontSize: '12dp'
+	}
+}

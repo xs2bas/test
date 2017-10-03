@@ -1,0 +1,53 @@
+<Alloy>
+	
+	<LeftNavButton>
+		<Button id="toggle">=</Button>
+	</LeftNavButton>
+	
+	<View id="menu">	
+		<View class="menuOverlay"></View>
+		<View id="menubackground">	
+			
+		<Label id="menu_company_title"></Label>
+			
+		<TableView class="menuTable" id="menuTable">
+			<TableViewSection>					
+				<TableViewRow  page="home" >
+					<Label class="home-icon"></Label>
+					<Label class="menuLabel" text="L('home_page_title')"></Label>
+				</TableViewRow>					
+				<TableViewRow  page="user_profile">
+					<Label class="user-icon"></Label>
+					<Label class="menuLabel" text="L('user_profile_page_title')"></Label>
+				</TableViewRow>					
+				<TableViewRow  page="invoices_list">
+					<Label class="file-text-icon"></Label>
+					<Label class="menuLabel" text="L('invoices_list_page_title')"></Label>
+				</TableViewRow>					
+				<TableViewRow  page="complaints_list">
+					<Label class="exclamation-circle-icon"></Label>
+					<Label class="menuLabel" text="L('complaints_list_page_title')"></Label>
+				</TableViewRow>					
+				<TableViewRow  page="documents_list">
+					<Label class="file-icon"></Label>
+					<Label class="menuLabel" text="L('documents_list_page_title')"></Label>
+				</TableViewRow>					
+				<TableViewRow  page="emails_list">
+					<Label class="envelope-icon"></Label>
+					<Label class="menuLabel" text="L('emails_list_page_title')"></Label>
+				</TableViewRow>					
+				<TableViewRow  page="contact">
+					<Label class="phone-icon"></Label>
+					<Label class="menuLabel" text="L('contact_page_title')"></Label>
+				</TableViewRow>				
+				<TableViewRow onClick="Alloy.Globals.doLogout">
+					<Label class="sign-out-icon"></Label>
+					<Label id="menuLogoutButton" class="menuLabel" text="L('user_profile_logout_button')"></Label>
+				</TableViewRow>		
+			</TableViewSection>
+		</TableView>
+		</View>
+		
+		<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+	</View>
+</Alloy>

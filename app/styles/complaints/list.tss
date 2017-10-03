@@ -1,0 +1,31 @@
+"#complaintList": {
+	top: 40
+}
+
+
+".status" : {
+	left: '5%',
+	
+	font: {
+		fontSize: '11dp'
+	}
+}
+
+".title" : {
+	left: '25%',
+	width: '45%',
+	
+	ellipsize: true,
+	
+	font: {
+		fontSize: '12dp'
+	}
+}
+
+".date" : {
+	left: '80%',
+	
+	font: {
+		fontSize: '11dp'
+	}
+}

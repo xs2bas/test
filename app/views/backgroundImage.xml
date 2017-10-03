@@ -1,0 +1,3 @@
+<Alloy>
+	<View module="ui" backgroundImage="Alloy.Globals.config.styling.homeBackgroundImage" backgroundSize="cover" backgroundTarget="main" />
+</Alloy>

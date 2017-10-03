@@ -1,0 +1,65 @@
+<Alloy>
+		
+		
+		<NavigationWindow class="app" id="page_user_login" module="xp.ui">
+			<Window id="page_user_login_window" title="L('login_page_title')">
+				<Require src="loader"/>
+        		<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+			</Window>
+		</NavigationWindow>	
+			
+		<NavigationWindow class="app" id="page_home" module="xp.ui">
+			<Window id="page_home_window">
+				<Require src="menu"/>
+        		<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+			</Window>
+		</NavigationWindow>	
+		
+		<NavigationWindow class="app" id="page_user_profile" module="xp.ui">
+			<Window id="page_user_profile_window" title="L('user_profile_page_title')">
+				<Require src="menu"/>
+        		<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+			</Window>
+		</NavigationWindow>	
+		
+		<NavigationWindow class="app" id="page_invoices_list" module="xp.ui">
+			<Window id="page_invoices_list_window" title="L('invoices_list_page_title')">
+				<Require src="menu"/>
+        		<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+			</Window>
+		</NavigationWindow>			
+
+		<NavigationWindow class="app" id="page_documents_list" module="xp.ui">
+			<Window id="page_documents_list_window" title="L('documents_list_page_title')">
+				<Require src="menu"/>
+        		<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+			</Window>
+		</NavigationWindow>	
+		
+		<NavigationWindow class="app" id="page_emails_list" module="xp.ui">
+			<Window id="page_emails_list_window" title="L('emails_list_page_title')">
+				<Require src="menu"/>
+        		<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+			</Window>
+		</NavigationWindow>	
+		
+		<NavigationWindow class="app" id="page_complaints_list" module="xp.ui">
+			<Window id="page_complaints_list_window" title="L('complaints_list_page_title')">
+				<Require src="menu"/>
+        		<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+			</Window>
+		</NavigationWindow>	
+				    
+		<NavigationWindow class="app" id="page_contact" module="xp.ui">
+			<Window id="page_contact_window"  title="L('contact_page_title')">
+				<Require src="menu"/>
+        		<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+			</Window>
+		</NavigationWindow>	
+		
+		<Window id="offline_window" modal="1" title="Offline" backgroundColor="white">
+			<Label top="100">Offline</Label>
+			<Button id="check_online_button" title="Verbinden"></Button>
+        	<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+		</Window>
+</Alloy>

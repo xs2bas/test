@@ -1,0 +1,23 @@
+<Alloy>
+	<Collection src="documents" id="documentsCollection" instance="true" />
+
+	<View id="main">		
+		<View class="listLegend">
+			<Label class="title">L('documents_list_title')</Label>
+			<Label class="date">L('documents_list_date')</Label>
+		</View>
+					
+		<TableView id="documentList" dataCollection="$.documentsCollection">
+		    <Widget id="is" src="nl.fokkezb.infiniteScroll" onEnd="tableLoader" />
+			
+			<TableViewSection>					
+				<TableViewRow model="{id}">
+					<Label class="title">{title}</Label>
+					<Label class="date">{date}</Label>
+				</TableViewRow>		
+			</TableViewSection>
+		</TableView>	
+					
+		<Require src="buttonBar"/>
+	</View>
+</Alloy>

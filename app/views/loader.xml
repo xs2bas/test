@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="activityIndicator">
+		<View id="activityIndicatorBackground"></View>
+		<ActivityIndicator id="activityIndicatorText" message="test" />
+	</View>
+</Alloy>	

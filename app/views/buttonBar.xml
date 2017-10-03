@@ -1,0 +1,23 @@
+<Alloy>
+<View class="buttonBar">
+	<View class="button emailButton" id="emailButton">
+		<Label class="buttonIcon" icon="fa-envelope"></Label>
+		<Label class="buttonBarLabel" text="L('emails_list_page_title')"></Label>
+	</View>
+	<View class="button invoiceButton" id="invoiceButton">
+		<Label class="buttonIcon" icon="fa-file-text"></Label>
+		<Label class="buttonBarLabel" text="L('invoices_list_page_title')"></Label>
+	</View>
+	<View class="button complaintsButton" id="complaintsButton">
+		<Label class="buttonIcon" icon="fa-exclamation-circle"></Label>
+		<Label class="buttonBarLabel" text="L('complaints_list_page_title')"></Label>
+	</View>
+	<View class="button contactButton" id="contactButton">
+		<Label class="buttonIcon" icon="fa-phone"></Label>
+		<Label class="buttonBarLabel" text="L('contact_page_title')"></Label>
+	</View>
+	<Widget id="fa" src="com.mattmcfarland.fontawesome"/>
+</View>
+
+
+</Alloy>

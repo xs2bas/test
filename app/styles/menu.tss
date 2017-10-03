@@ -1,0 +1,166 @@
+"#menu": {
+	zIndex: 333,
+	top: 0,
+	left: 0,
+	width: '100%',
+	height: '100%'
+}
+
+".menuOverlay": {
+	width: '100%',
+	height: '100%',
+	backgroundColor:"black",
+	opacity: 0.3
+}
+
+"#menubackground": {
+	zIndex: 334,
+	width: '35%',
+	rowHeight: 50,
+	top: 0,
+	left: 0,
+	viewShadowColor: 'rgba(0,0,0,0.3)',
+	viewShadowOffset: {x:10, y:0},
+	viewShadowRadius: 10,
+	backgroundColor: Alloy.Globals.config.styling.baseColor,
+	backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: '50%', y: '0%' },
+        endPoint: { x: '50%', y: '100%' },
+        colors: [ { color: 'rgba(0,0,0,0)', offset: 0.0}, { color: 'rgba(0,0,0,0.3)', offset: 1.0 } ],		
+	},
+}
+
+"#menubackground[if=Alloy.Globals.smallScreen]": {
+	width: '65%'
+}
+
+".menuTable": {
+	backgroundColor:"transparent",
+	separatorColor:"transparent",
+	rowHeight: 50,
+	top: 100,
+	left: 0,
+}
+
+".menuLabel": {
+	color: "white",
+	textAlign: 'left',
+	left: 50,
+	width: 140,
+	font: {
+		fontSize: '14dp'
+	}
+}
+
+"#menu_company_title": {
+	color: "white",
+	top: 40
+}
+
+".currentMenuItem": {
+	backgroundGradient: {
+        type: 'linear',
+        startPoint: { x: '0%', y: '50%' },
+        endPoint: { x: '100%', y: '50%' },
+        colors: [ { color: 'rgba(0,0,0,0.05)', offset: 0.0}, { color: 'rgba(0,0,0,0.1)', offset: 1.0 } ],		
+	}	
+}
+
+
+".home-icon": {
+	color: "white",
+	left: "24",
+    text : "\uf015",
+    font : {
+        fontFamily : "FontAwesome",
+		fontSize: '20dp'
+    }
+}
+
+".user-icon": {
+	color: "white",
+	left: "24",
+    text : "\uf007",
+    font : {
+        fontFamily : "FontAwesome",
+		fontSize: '20dp'
+    }	
+}
+
+".envelope-icon": {
+	color: "white",
+	left: "24",
+    text : "\uf0e0",
+    font : {
+        fontFamily : "FontAwesome",
+		fontSize: '20dp'
+    }	
+}
+
+
+".file-text-icon": {
+	color: "white",
+	left: "24",
+    text : "\uf15c",
+    font : {
+        fontFamily : "FontAwesome",
+		fontSize: '20dp'
+    }	
+}
+
+
+".file-icon": {
+	color: "white",
+	left: "24",
+    text : "\uf15b",
+    font : {
+        fontFamily : "FontAwesome",
+		fontSize: '20dp'
+    }	
+}
+
+".phone-icon": {
+	color: "white",
+	left: "24",
+    text : "\uf095",
+    font : {
+        fontFamily : "FontAwesome",
+		fontSize: '20dp'
+    }	
+}
+
+".exclamation-circle-icon": {
+	color: "white",
+	left: "24",
+    text : "\uf06a",
+    font : {
+        fontFamily : "FontAwesome",
+		fontSize: '20dp'
+    }	
+}
+
+
+".sign-out-icon": {
+	top: 18,
+	color: "white",
+	left: "24",
+    text : "\uf08b",
+    font : {
+        fontFamily : "FontAwesome",
+		fontSize: '20dp'
+    }	
+}
+
+"#logoutIcon": {
+	top: 20,
+	width: "20",
+	height: "20",
+}
+
+"#menuLogoutButton": {
+	top: 20,
+	font: {
+		fontSize: '12dp'
+	}
+}

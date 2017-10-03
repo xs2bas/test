@@ -1,0 +1,40 @@
+<Alloy>
+	<Collection src="settings" />	
+ 	
+	<View id="main" class="container">
+		<TableView>
+			<TableViewSection>					
+				<TableViewRow>							
+					<Label id="company" class="formvalue"></Label>
+				</TableViewRow>
+				<TableViewRow>
+					<Label class="formlabel" text="E-mail: "></Label>
+					<Label id="email" class="formvalue"></Label>	
+				</TableViewRow>
+				<TableViewRow>
+					<Label class="formlabel" text="Website: "></Label>
+					<Label id="website" class="formvalue"></Label>
+				</TableViewRow>
+				<TableViewRow>					
+					<Label class="formlabel" text="L('contact_page_phone')"></Label>
+					<Label id="phone" class="formvalue"></Label>
+				</TableViewRow>
+				<TableViewRow>					
+					<Label class="formlabel" text="L('contact_page_emergency_phone')"></Label>
+					<Label id="project_emergency_phone" class="formvalue"></Label>
+				</TableViewRow>
+				<TableViewRow height="50">									
+					<Label class="formlabel" top="10" text="L('contact_page_address')"></Label>
+					<Label id="address" top="5" class="formvalue"></Label>
+				</TableViewRow>
+
+			</TableViewSection>	
+		</TableView>	
+
+		<Require src="buttonBar"/>		
+	</View>
+	
+
+    	
+    	
+</Alloy>

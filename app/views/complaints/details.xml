@@ -1,0 +1,38 @@
+<Alloy>
+	<Model src="complaint" instance="true" id="complaint" />
+	
+	<Window id="complaint_window">
+		<TableView id="complaint_details_table">
+			<TableViewSection>					
+				<TableViewRow>		
+					<Label class="formlabel" text="L('complaints_add_title')"></Label>
+					<Label class="formvalue">{$.complaint.title}</Label>
+				</TableViewRow>	
+							
+				<TableViewRow>		
+					<Label class="formlabel" text="L('complaints_add_is_complaint')"></Label>
+					<Label class="formvalue">{$.complaint.is_complaint_label}</Label>
+				</TableViewRow>
+				
+				<TableViewRow>		
+					<Label class="formlabel" text="L('complaints_details_date')"></Label>
+					<Label class="formvalue">{$.complaint.date}</Label>
+				</TableViewRow>
+				
+				<TableViewRow>	
+					<Label class="formlabel" text="L('complaints_details_status')"></Label>
+					<Label class="formvalue">{$.complaint.status}</Label>
+				</TableViewRow>	
+				
+				<TableViewRow class="autoheight">		
+					<Label class="formlabel" top="0" text="L('complaints_add_description')"></Label>
+					<Label class="formvalue" top="0">{$.complaint.description}</Label>
+				</TableViewRow>									
+			</TableViewSection>	
+			
+			<TableViewSection id="pictures_section"></TableViewSection>				
+		</TableView>
+
+		<Require src="buttonBar"/>		
+	</Window>
+</Alloy>

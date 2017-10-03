@@ -1,0 +1,159 @@
+<resources>
+	<string name="home_page_title">Home</string>
+		<string name="home_message_title">Welcome to %s.</string>
+    	<string name="home_message">This app can be used to login to your personal page. You can change your personal settings, report defects, check your invoices and payment status. It's also possible to contact the security guard.</string>
+    
+    
+    <string name="login_page_title">Login</string>
+	    <string name="login_username">Username</string>
+	    <string name="login_password">Password</string>
+	    <string name="login_login">Login</string>
+	    <string name="login_busy">Connecting...</string>
+	    <string name="login_unable_title">Unable to login</string>
+	    <string name="login_unable_description">Invalid login credentials</string>
+	    
+    
+    <string name="user_profile_page_title">Personal details</string>
+    
+	    <string name="user_profile_group_login">Login details</string>
+		    <string name="user_profile_username">Username</string>
+		    <string name="user_profile_password">Password</string>
+	    
+	    <string name="user_profile_group_general">General details</string>
+		    <string name="user_profile_gender">Gender</string>
+		    	<string name="user_profile_gender_male">Male</string>
+		    	<string name="user_profile_gender_female">Female</string>
+		    <string name="user_profile_initials">Initials</string>
+		    <string name="user_profile_firstname">First name</string>
+		    <string name="user_profile_middlename">Middlename</string>
+		    <string name="user_profile_name">Surname</string>
+		    <string name="user_profile_bdate">Date of birth</string>
+		    <string name="user_profile_identification">ID card #</string>
+		    <string name="user_profile_phone_home">Phone</string>
+		    <string name="user_profile_phone_cell">Mobile</string>
+		    <string name="user_profile_email">E-mail</string>
+		    <string name="user_profile_email_verify">Check E-mail</string>
+	    
+	    <string name="user_profile_group_object_address">Rental address</string>
+		    <string name="user_profile_address_address">Address</string>
+		    <string name="user_profile_address_number">Number</string>
+		    <string name="user_profile_address_zipcode">Postal code</string>
+		    <string name="user_profile_address_city">City</string>
+	    
+	    <string name="user_profile_group_period">Period</string>
+	    	<string name="user_profile_date">Commencement date</string>
+    
+	    <string name="user_profile_group_user_address">Current address</string>
+    	   
+		<string name="user_profile_group_payment">Payment details</string>
+	    	<string name="user_profile_preferences_bill">Invoice received by</string>
+		    	<string name="user_profile_preferences_bill_post">Post</string>
+		    	<string name="user_profile_preferences_bill_email">E-mail</string>
+	    	<string name="user_profile_preferences_iban">IBAN</string>
+	    	<string name="user_profile_preferences_bic">BIC</string>
+	    	<string name="user_profile_preferences_payment_type">Type of payment</string>
+		    	<string name="user_profile_preferences_payment_type_ideal">Manual payment</string>
+		    	<string name="user_profile_preferences_payment_type_collection">Collection</string>
+ 
+		<string name="user_profile_group_save">Save your details</string>
+	    	<string name="user_profile_save_confirm_text">The contracting party hereby confirms that the personal details have been filled in correctly and truthfully.</string>    
+	    	<string name="user_profile_save_button">Save</string>
+	    	<string name="user_profile_logout_button">Log out</string>
+	    	<string name="user_profile_logout_message">Are you sure you want to log out?</string>
+	    	
+	<string name="invoices_list_page_title">Invoices</string>
+		<string name="invoices_list_period">Period</string>
+		<string name="invoices_list_identifier">Invoice</string>
+		<string name="invoices_list_amount">Amount</string>
+		<string name="invoices_list_payed">Payed</string>
+	
+	
+	
+	<string name="emails_list_page_title">E-mails</string>
+		<string name="emails_list_subject">Subject</string>
+		<string name="emails_list_date">Date</string>
+		<string name="emails_details_attachments">Attachments</string>
+		<string name="emails_details_attachment_title">Attachment</string>
+		
+
+
+	
+	<string name="documents_list_page_title">Documents</string>
+		<string name="documents_list_title">Title</string>
+		<string name="documents_list_date">Date</string>
+	
+	
+	<string name="complaints_list_page_title">Complaints</string>	
+		<string name="complaints_list_status">Status</string>
+		<string name="complaints_list_title">Title</string>
+		<string name="complaints_list_date">Date</string>
+
+		<string name="complaints_add_title">Submit new complaint or defect</string>
+		<string name="complaints_add_is_complaint">Complaint or defect</string>
+		<string name="complaints_add_is_complaint_no_complaint">Complaint</string>
+		<string name="complaints_add_is_complaint_complaint">Defect</string>
+		<string name="complaints_add_title">Title</string>
+		<string name="complaints_add_description">Description</string>
+		<string name="complaints_add_access_allowed">Access allowed</string>
+		<string name="complaints_add_submit">Submit</string>
+		<string name="complaints_add_cancel">Cancel</string>
+		<string name="complaints_add_image_error">Error saving image, please check your internet connection and try again.</string>
+		<string name="complaints_add_delete">Delete</string>
+		<string name="complaints_add_delete">Are you sure you want to delete this image?</string>
+		<string name="complaints_add_confirm_save_title">Thank you</string>
+		<string name="complaints_add_confirm_save">We have been notified of you complaint.</string>
+		<string name="complaints_add_picture_loading"> Loading pictures...</string>
+		<string name="complaints_add_pictures">Pictures</string>
+
+		<string name="complaints_details_date">Date</string>
+		<string name="complaints_details_status">Status</string>
+		
+		<string name="complaints_is_complaint_yes">Complaint</string>
+		<string name="complaints_is_complaint_no">Defect</string>
+		
+		<string name="complaints_status_Opgelost">Solved</string>
+		<string name="complaints_status_In_behandeling">Processing</string>
+		<string name="complaints_status_Open">Open</string>
+		<string name="complaints_status_In_afwachting">Pending</string>
+		<string name="complaints_status_Afspraak">Appointment</string>
+		<string name="complaints_status_Afgehandeld">Closed</string>
+		<string name="complaints_status_Financieel_gereed">Closed</string>
+		<string name="complaints_status_Afgewezen">Declined</string>
+		<string name="complaints_status_Administratief_gereed">Closed</string>
+		
+
+	
+	<string name="contact_page_title">Contact</string>
+		<string name="contact_page_phone">Phone number: </string>
+		<string name="contact_page_emergency_phone">Emergency phone number: </string>
+		<string name="contact_page_address">Address: </string>
+	
+	
+	
+	
+	<string name="confirm_dialog_button_confirm">Confirm</string>
+	<string name="confirm_dialog_button_cancel">Cancel</string>
+	
+	
+	<string name="form_validate_required">The %s field is required.</string>
+	<string name="form_validate_matches">The %s field does not match the expected value: %s.</string>
+	<string name="form_validate_valid_email">The %s field must contain a valid email address.</string>
+	<string name="form_validate_valid_emails">The %s field must contain all valid email addresses.</string>
+	<string name="form_validate_min_length">The %s field must be at least %s characters in length.</string>
+	<string name="form_validate_max_length">The %s field must not exceed %s characters in length.</string>
+	<string name="form_validate_exact_length">The %s field must be exactly %s characters in length.</string>
+	<string name="form_validate_greater_than">The %s field must contain a number greater than %s.</string>
+	<string name="form_validate_less_than">The %s field must contain a number less than %s.</string>
+	<string name="form_validate_alpha">The %s field must only contain alphabetical characters.</string>
+	<string name="form_validate_alpha_numeric">The %s field must only contain alpha-numeric characters.</string>
+	<string name="form_validate_alpha_dash">The %s field must only contain alpha-numeric characters, underscores, an</string>dashes.',
+	<string name="form_validate_numeric">The %s field must contain only numbers.</string>
+	<string name="form_validate_integer">The %s field must contain an integer.</string>
+	<string name="form_validate_decimal">The %s field must contain a decimal number.</string>
+	<string name="form_validate_is_natural">The %s field must contain only positive numbers.</string>
+	<string name="form_validate_is_natural_no_zero">The %s field must contain a number greater than zero.</string>
+	<string name="form_validate_valid_ip">The %s field must contain a valid IP.</string>
+	<string name="form_validate_valid_base64">The %s field must contain a base64 string.</string>
+	<string name="form_validate_valid_credit_card">The %s field must contain a valid credit card number.</string>
+	<string name="form_validate_valid_url">The %s field must contain a valid URL.'</string>	     	
+</resources>

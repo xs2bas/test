@@ -1,0 +1,20 @@
+<Alloy>
+
+	<Model src="user" instance="true" id="user" />
+	
+	<View id="main">
+		<Require type="view" src="backgroundImage" id="backgroundImage"/>
+
+		<View class="formBackground"></View>
+		<View class="form">
+			
+			<Label top="20">L('login_login')</Label>
+			
+			<TextField onReturn="tryLogin" top="50" id="username" hintText="L('login_username')" />
+		
+			<TextField onReturn="tryLogin" top="90" id="password" passwordMask="true" hintText="L('login_password')" />
+	
+			<Button top="150" onClick="tryLogin" title="L('login_login')"></Button>	
+		</View>		
+	</View>
+</Alloy>

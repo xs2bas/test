@@ -1,0 +1,182 @@
+<Alloy>
+
+	<Model src="user" instance="true" id="user" />
+	
+	<View id="main">
+		<TableView id="tableview" style="Titanium.UI.iPhone.TableViewStyle.GROUPED" bottom="80">
+			<TableViewSection headerTitle="L('user_profile_group_login')">
+																
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_username')"></Label>	
+					<TextField editable="false" class="formvalue disabled" id="username" value="{$.user.username}" hintText="L('user_profile_username')" />
+				</TableViewRow>	
+												
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_password')"></Label>	
+					<TextField class="formvalue" id="password" passwordMask="true" hintText="L('user_profile_password')" />
+				</TableViewRow>	
+								
+			</TableViewSection>	
+
+			<TableViewSection headerTitle="L('user_profile_group_general')">
+																
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_initials')"></Label>	
+					<TextField class="formvalue" id="initials" value="{$.user.initials}" rules="required|min_length[2]" hintText="L('user_profile_initials')" />
+				</TableViewRow>	
+												
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_firstname')"></Label>	
+					<TextField class="formvalue" id="firstname" value="{$.user.firstname}" hintText="L('user_profile_firstname')" />
+				</TableViewRow>	
+													
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_middlename')"></Label>	
+					<TextField class="formvalue" id="middlename" value="{$.user.middlename}" hintText="L('user_profile_middlename')" />
+				</TableViewRow>	
+									
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_name')"></Label>	
+					<TextField class="formvalue" id="name" value="{$.user.name}" hintText="L('user_profile_name')" />
+				</TableViewRow>	
+							
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_bdate')"></Label>					
+					<TextField class="formvalue" id="bdate" value="{$.user.bdate}" hintText="L('user_profile_bdate')" editable="0" />
+				</TableViewRow>	
+					
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_phone_home')"></Label>	
+					<TextField class="formvalue" id="phone_home" rules="numeric" value="{$.user.phone_home}" hintText="L('user_profile_phone_home')" />
+				</TableViewRow>	
+							
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_phone_cell')"></Label>	
+					<TextField class="formvalue" id="phone_cell" rules="numeric" value="{$.user.phone_cell}" hintText="L('user_profile_phone_cell')" />
+				</TableViewRow>	
+				
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_email')"></Label>	
+					<TextField class="formvalue" id="email" rules="valid_email" value="{$.user.email}" hintText="L('user_profile_email')" />
+				</TableViewRow>	
+															
+			</TableViewSection>	
+
+			<TableViewSection headerTitle="L('user_profile_group_object_address')">	
+															
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_address_address')"></Label>	
+					<TextField class="formvalue disabled" editable="false" value="{$.user.object_address_address}" hintText="L('user_profile_address_address')" />
+				</TableViewRow>	
+				
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_address_number')"></Label>	
+					<TextField class="formvalue disabled" editable="false" value="{$.user.object_address_number}" hintText="L('user_profile_address_number')" />
+				</TableViewRow>
+				
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_address_zipcode')"></Label>	
+					<TextField class="formvalue disabled" editable="false" value="{$.user.object_address_zipcode}" hintText="L('user_profile_address_zipcode')" />
+				</TableViewRow>
+				
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_address_city')"></Label>	
+					<TextField class="formvalue disabled" editable="false" value="{$.user.object_address_city}" hintText="L('user_profile_address_city')" />
+				</TableViewRow>
+				
+			</TableViewSection>	
+			
+			<TableViewSection headerTitle="L('user_profile_group_period')">	
+															
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_date')"></Label>	
+					<TextField class="formvalue disabled" editable="false" value="01-02-2015" hintText="L('user_profile_date')" />
+				</TableViewRow>	
+				
+			</TableViewSection>	
+							
+			<TableViewSection headerTitle="L('user_profile_group_user_address')">	
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_address_address')"></Label>	
+					<TextField class="formvalue" id="user_address_address" value="{$.user.user_address_address}" hintText="L('user_profile_address_address')" />
+				</TableViewRow>	
+				
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_address_number')"></Label>	
+					<TextField class="formvalue" id="user_address_number" value="{$.user.user_address_number}" hintText="L('user_profile_address_number')" />
+				</TableViewRow>
+				
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_address_zipcode')"></Label>	
+					<TextField class="formvalue" id="user_address_zipcode" value="{$.user.user_address_zipcode}" hintText="L('user_profile_address_zipcode')" />
+				</TableViewRow>
+				
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_address_city')"></Label>	
+					<TextField class="formvalue" id="user_address_city" value="{$.user.user_address_city}" hintText="L('user_profile_address_city')" />
+				</TableViewRow>
+			</TableViewSection>		
+			
+			<TableViewSection headerTitle="L('user_profile_group_payment')">	
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_preferences_iban')"></Label>	
+					<TextField class="formvalue" id="iban" value="{$.user.iban}" hintText="L('user_profile_preferences_iban')" />
+				</TableViewRow>	
+				<TableViewRow class="formRow">
+					<Label class="formlabel" text="L('user_profile_preferences_bic')"></Label>	
+					<TextField class="formvalue" id="bic" value="{$.user.bic}" hintText="L('user_profile_preferences_bic')" />
+				</TableViewRow>	
+				
+				<TableViewRow class="formRow" id="payment_type_form_row">
+					<Label class="formlabel" text="L('user_profile_preferences_payment_type')"></Label>
+						
+					<View class="formvalue">		
+						<TabbedBar id="payment_type" left="5" value="{$.user.payment_type}">
+				            <Labels>
+				                <Label value="ideal" title="L('user_profile_preferences_payment_type_ideal')"></Label>
+				                <Label value="collection" title="L('user_profile_preferences_payment_type_collection')"></Label>
+				            </Labels>
+				        </TabbedBar>
+			        </View>		
+				</TableViewRow>	
+					
+				<TableViewRow class="formRow" id="bill_form_row">
+					<Label class="formlabel" text="L('user_profile_preferences_bill')"></Label>	
+					<View class="formvalue">
+						<TabbedBar id="bill" left="5" value="{$.user.bill}">
+				            <Labels>
+				                <Label value="post" title="L('user_profile_preferences_bill_post')"></Label>
+				                <Label value="email" title="L('user_profile_preferences_bill_email')"></Label>
+				            </Labels>
+				        </TabbedBar>
+			        </View>					
+				</TableViewRow>	
+			</TableViewSection>		
+						
+									
+			<TableViewSection headerTitle="L('user_profile_group_save')">	
+				<TableViewRow class="formRow">
+					<Button onClick="saveProfile" title="L('user_profile_save_button')"></Button>
+				</TableViewRow>				
+				<TableViewRow class="formRow">
+					<Button color="red" class="doLogout" onClick="Alloy.Globals.doLogout" title="L('user_profile_logout_button')"></Button>
+				</TableViewRow>
+				
+			</TableViewSection>	
+		</TableView>
+		
+		<View id="pickerView" width="100%" bottom="80" visible="0" height="100%" zIndex="999" backgroundColor="rgba(0,0,0,0.33)">
+			<View height="300" backgroundColor="white">
+				<Picker id="picker" width="100%" bottom="80" top="0" type="Ti.UI.PICKER_TYPE_DATE" minDate="01-01-1900"></Picker>
+				<Toolbar platform="ios" bottom="0" height="80">
+					<Items>
+						<FlexSpace/>
+						<Button id="pickerSave" title="L('user_profile_save_button')" style="Titanium.UI.iPhone.SystemButtonStyle.DONE"></Button>
+					</Items>
+				</Toolbar>
+			</View>
+		</View>
+		
+		<Require src="buttonBar"/>
+	</View>
+</Alloy>

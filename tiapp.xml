@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app 
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>com.wennet.huurders.studentexperience</id>
+  <name>Huurders</name>
+  <version>1.0.8</version>
+  <publisher>Omniboxx</publisher>
+  <url>http://</url>
+  <description>undefined</description>
+  <copyright>2017 by Omniboxx</copyright>
+  <icon>DefaultIcon_ravel.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>true</analytics>
+  <guid>e376df1f-7c8a-4397-9eee-819f2a926c02</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <ios>
+    <plist>
+      <dict>
+        <key>UISupportedInterfaceOrientations~iphone</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <string>UIInterfaceOrientationPortraitUpsideDown</string>
+          <string>UIInterfaceOrientationLandscapeLeft</string>
+          <string>UIInterfaceOrientationLandscapeRight</string>
+        </array>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>Save defect pictures to your photo library</string>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleDefault</string>
+        <key>CFBundleLocalizations</key>
+        <array>
+          <string>en</string>
+          <string>nl</string>
+        </array>
+      </dict>
+    </plist>
+  </ios>
+  <android 
+    xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+      <precache/>
+      <splash>
+        <enabled>true</enabled>
+        <inline-css-images>true</inline-css-images>
+      </splash>
+      <theme>default</theme>
+    </mobileweb>
+    <modules>
+      <module platform="iphone" version="2.2.1">bencoding.securely</module>
+      <module platform="iphone" version="0.4">ti.viewshadow</module>
+    </modules>
+    <deployment-targets>
+      <target device="android">true</target>
+      <target device="blackberry">false</target>
+      <target device="ipad">true</target>
+      <target device="iphone">true</target>
+      <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>6.3.0.v20170926122834</sdk-version>
+    <plugins>
+      <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">59d39e6578a921345abbf7a5</property>
+  </ti:app>

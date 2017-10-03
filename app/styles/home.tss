@@ -1,0 +1,29 @@
+
+".container" : {
+
+}
+
+"#title": {
+	top: '25%',
+	width: "90%",
+	textAlign: "left",
+	font: {
+		fontWeight: "bold",
+		fontSize: '16dp'
+	}	
+}
+
+"#message": {
+	top: '30%',
+	width: "90%",
+	textAlign: "left",
+	font: {
+		fontSize: '12dp'
+	}	
+}
+
+".homeContent": {
+	top: "33%",
+	backgroundColor: 'white',
+	opacity: 0.8,	
+}

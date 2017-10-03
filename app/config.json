@@ -1,0 +1,14 @@
+{
+  "global": {},
+  "env:development": {},
+  "env:test": {},
+  "env:production": {},
+  "os:android": {},
+  "os:blackberry": {},
+  "os:ios": {},
+  "os:mobileweb": {},
+  "dependencies": {
+    "nl.fokkezb.infiniteScroll": "1.4.4",
+    "com.mattmcfarland.fontawesome":"1.7.2"
+  }
+}

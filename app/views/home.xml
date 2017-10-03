@@ -1,0 +1,15 @@
+<Alloy>
+	<View id="main" class="container">
+		<Require type="view" src="backgroundImage" id="backgroundImage"/>
+		
+		
+		<View class="homeContent">
+			<ImageView height="20%" top="5" bottom="5" id="logo" />
+			<Label id="title"></Label>
+			<Label id="message" text="L('home_message')"></Label>
+			
+		</View>	
+		
+		<Require src="buttonBar"/>
+	</View>
+</Alloy>

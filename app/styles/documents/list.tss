@@ -1,0 +1,22 @@
+"#documentList": {
+	top: 40
+}
+
+".title" : {
+	left: '5%',
+	width: '55%',
+	
+	ellipsize: true,
+	
+	font: {
+		fontSize: '12dp'
+	}
+}
+
+".date" : {
+	left: '70%',
+	
+	font: {
+		fontSize: '11dp'
+	}
+}

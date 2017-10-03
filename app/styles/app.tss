@@ -1,0 +1,60 @@
+"#main": {
+	top: 0	
+}
+
+".formRow":{
+	height: 40,
+	selectionStyle : Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
+}
+
+
+"Window": {
+	backgroundColor:"white",
+    includeOpaqueBars: true,
+    translucent: false,
+    navTintColor: "white",
+    barColor: Alloy.Globals.config.styling.baseColor,
+    extendEdges:[Ti.UI.EXTEND_NONE],
+    titleAttributes: {color: 'white'}
+}
+
+"TabbedBar": {
+	backgroundColor: Alloy.Globals.config.styling.baseColor
+}
+
+"TextField": {
+	height: 20
+}
+
+"TableViewRow": {
+	height: 40,
+}
+
+".autoheight": {
+	height: Ti.UI.SIZE,
+	bottom: 10
+}
+
+".formlabel": {
+	left: 20,
+	width: '33%',
+	font: {
+		fontSize: '14dp'
+	}
+}
+
+'.formvalue': {
+	left: '33%',
+	width: '66%',
+	paddingLeft: 10
+}
+
+'.disabled': {
+	color:"#737373"
+}
+
+".listLegend": {
+	backgroundColor: '#e7e7e7',
+	height: 40,
+	top: 0
+}

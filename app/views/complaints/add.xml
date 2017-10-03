@@ -1,0 +1,57 @@
+<Alloy>
+	
+	<Model src="complaint" instance="true" id="complaint" />
+	
+	<Window id="complaintAddWin" title="L('complaints_add_title')" class="container" modal="true" onOpen="focusTextField">
+
+		<RightNavButton>
+			<Button onClick="openCamera" systemButton="Titanium.UI.iPhone.SystemButton.CAMERA"></Button>
+		</RightNavButton>		
+		
+		<TableView id="complaint_add_table">
+			<TableViewSection>
+				<TableViewRow>
+					<Label class="formlabel" text="L('complaints_add_is_complaint')"></Label>
+					<View class="formvalue">
+						<TabbedBar id="is_complaint" left="5" value="0">
+				            <Labels>
+				                <Label value="0" title="L('complaints_add_is_complaint_no_complaint')"></Label>
+				                <Label value="1" title="L('complaints_add_is_complaint_complaint')"></Label>
+				            </Labels>
+				        </TabbedBar>
+			        </View>	
+				</TableViewRow>	
+											
+				<TableViewRow>
+					<Label class="formlabel" text="L('complaints_add_title')"></Label>
+					<TextField class="formvalue" id="title" hintText="L('complaints_add_title')" rules="required|min_length[2]" onReturn="closeKeyboard"/>
+				</TableViewRow>		
+									
+				<TableViewRow height="160">
+					<Label class="formlabel" top="10" text="L('complaints_add_description')"></Label>
+					<TextArea id="description" class="formvalue description" suppressReturn="false" height="100%" top="3" />
+				</TableViewRow>	
+							
+				<TableViewRow>
+					<Label class="formlabel" id="access_allowed_label" text="L('complaints_add_access_allowed')"></Label>
+					<Switch onTintColor="#8EC540" left="33%" id="access_allowed" />
+				</TableViewRow>		
+				
+			</TableViewSection>	
+			
+			<TableViewSection id="pictures_section">	
+			</TableViewSection>				
+					
+			<TableViewSection>	
+				<TableViewRow>
+					<Button id="button_section_add" class="button" onClick="addItem" title="L('complaints_add_submit')"></Button>
+				</TableViewRow>				
+				<TableViewRow>
+					<Button id="button_section_cancel" color="red" class="button" onClick="closeWindow" title="L('complaints_add_cancel')"></Button>
+				</TableViewRow>
+			</TableViewSection>	
+		</TableView>
+
+		<Require src="buttonBar"/>						
+	</Window>    
+</Alloy>

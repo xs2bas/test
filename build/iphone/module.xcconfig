@@ -1,0 +1,4 @@
+// this is a generated file - DO NOT EDIT
+
+BENCODING_SECURELY_OTHER_LDFLAGS=$(inherited) -framework Security
+OTHER_LDFLAGS=$(inherited) $(BENCODING_SECURELY_OTHER_LDFLAGS) 
