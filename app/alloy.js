@@ -57,6 +57,8 @@ Alloy.Globals.config = Alloy.Globals.config['ravel'];
 Alloy.Globals.config.styling.homeBackgroundImage = 'images/' + Alloy.Globals.config.styling.homeBackgroundImage;
 Alloy.Globals.smallScreen = Ti.Platform.displayCaps.platformWidth < 400; 
 
+// comment
+
 Alloy.Globals.addFetchErrorHandler = function(collection, options){
 	options = options ? options : {};
 
